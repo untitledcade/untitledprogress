@@ -1,0 +1,10 @@
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\bin\Debug\puzzle 0-1.exe
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\bin\Debug\puzzle 0-1.pdb
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\bin\Debug\puzzle 0-1.xml
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle_0_1.Form1.resources
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle_0_1.Resources.resources
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle 0-1.vbproj.GenerateResource.Cache
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle 0-1.exe
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle 0-1.xml
+C:\Users\admin\AppData\Local\Temporary Projects\puzzle 0-1\obj\Debug\puzzle 0-1.pdb
