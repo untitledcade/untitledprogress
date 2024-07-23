@@ -1,0 +1,19 @@
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.AssemblyReference.cache
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1._1v1form.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Desktop.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Form1.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.main.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Resources.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.GenerateResource.cache
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.CoreCompileInputs.cache
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.xml
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.pdb
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe.config
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe.manifest
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.application
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.pdb
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.xml
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe.manifest
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.application

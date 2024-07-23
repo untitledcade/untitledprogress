@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="puzzle 0-2.exe" size="78848">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="puzzle 0-2.exe" size="871424">
       <assemblyIdentity name="puzzle 0-2" version="2024.4.30.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nARr1U8oKev8M29K8Lv7QKJtPr1vxIamzyTHI/2qjYw=</dsig:DigestValue>
+        <dsig:DigestValue>Bqd863VeHrcAJQuF+3kprwqqfabxqALdqx2HIapOJ5o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
