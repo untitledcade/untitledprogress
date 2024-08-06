@@ -58,8 +58,16 @@ Public Class Form1
         If Countdown > 0 Then
             Countdown = Countdown - 1
             Label4.Text = Countdown
+            If Countdown = 3 Then
+                My.Computer.Audio.Play(My.Resources.OnMark, AudioPlayMode.Background)
+            End If
+            If Countdown = 1 Then
+                My.Computer.Audio.Play(My.Resources.GetSet, AudioPlayMode.Background)
+            End If
+
         ElseIf Countdown = 0 Then
             Label4.Text = "Begin!"
+            My.Computer.Audio.Play(My.Resources.GameStart, AudioPlayMode.Background)
             Timer1.Enabled = True
             Button1.Enabled = True
             RunAwayForefitToolStripMenuItem.Enabled = True
@@ -108,16 +116,19 @@ Public Class Form1
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
             Abilities.CoinAmountText.Text = My.Settings.userCredit
+            My.Computer.Audio.Play(My.Resources.gameWin, AudioPlayMode.Background)
         ElseIf gameResult = 2 Then
             Label4.Text = "You have Lost. Dont give up, keep trying! (Game has ended, Close this window.)"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         ElseIf gameResult = 3 Then
             Label4.Text = "You have Forfited and lost. (Game has ended, Close this window.)"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         End If
 
     End Function

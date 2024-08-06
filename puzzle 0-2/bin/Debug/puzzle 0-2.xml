@@ -32,9 +32,34 @@ puzzle 0-2
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:puzzle_0_1.My.Resources.Resources.DuetWin">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:puzzle_0_1.My.Resources.Resources.easymode">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.failure">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.GameStart">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.gameWin">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.GetSet">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member>
 <member name="P:puzzle_0_1.My.Resources.Resources.marvinmode">
@@ -50,6 +75,21 @@ puzzle 0-2
 <member name="P:puzzle_0_1.My.Resources.Resources.normal">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.OnMark">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.Player1">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.Player2">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member>
 </members>

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Desktop
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Desktop
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Desktop))
         Me.TaskBar = New System.Windows.Forms.MenuStrip()
@@ -38,6 +38,7 @@ Partial Class Desktop
         Me.NewsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DualStarter1v1GameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaskBar.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -56,7 +57,7 @@ Partial Class Desktop
         'StartToolStripMenuItem
         '
         Me.StartToolStripMenuItem.BackColor = System.Drawing.Color.LimeGreen
-        Me.StartToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CampaignToolStripMenuItem, Me.QuickGameToolStripMenuItem, Me.CustomGameToolStripMenuItem, Me.QuitGameToolStripMenuItem})
+        Me.StartToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CampaignToolStripMenuItem, Me.QuickGameToolStripMenuItem, Me.CustomGameToolStripMenuItem, Me.DualStarter1v1GameToolStripMenuItem, Me.QuitGameToolStripMenuItem})
         Me.StartToolStripMenuItem.Name = "StartToolStripMenuItem"
         Me.StartToolStripMenuItem.Size = New System.Drawing.Size(74, 36)
         Me.StartToolStripMenuItem.Text = "Start"
@@ -140,6 +141,12 @@ Partial Class Desktop
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(12, 36)
         '
+        'DualStarter1v1GameToolStripMenuItem
+        '
+        Me.DualStarter1v1GameToolStripMenuItem.Name = "DualStarter1v1GameToolStripMenuItem"
+        Me.DualStarter1v1GameToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
+        Me.DualStarter1v1GameToolStripMenuItem.Text = "DualStarter (1v1 game)"
+        '
         'Desktop
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -173,4 +180,5 @@ Partial Class Desktop
     Friend WithEvents CustomGameToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents GameSettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DualStarter1v1GameToolStripMenuItem As ToolStripMenuItem
 End Class

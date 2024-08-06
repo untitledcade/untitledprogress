@@ -108,10 +108,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1v1form.Designer.vb">
-      <DependentUpon>1v1form.vb</DependentUpon>
+    <Compile Include="DuelGame.Designer.vb">
+      <DependentUpon>DuelGame.vb</DependentUpon>
     </Compile>
-    <Compile Include="1v1form.vb">
+    <Compile Include="DuelGame.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Desktop.Designer.vb">
@@ -181,8 +181,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="1v1form.resx">
-      <DependentUpon>1v1form.vb</DependentUpon>
+    <EmbeddedResource Include="DuelGame.resx">
+      <DependentUpon>DuelGame.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Desktop.resx">
       <DependentUpon>Desktop.vb</DependentUpon>
@@ -256,6 +256,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Audio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DuetWin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\failure.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameStart.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameWin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GetSet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnMark.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player2.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
