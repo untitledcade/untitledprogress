@@ -127,6 +127,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Game-Forms\Abilities.Designer.vb">
+      <DependentUpon>Abilities.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\Abilities.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game-Forms\QuickPlay.Designer.vb">
+      <DependentUpon>QuickPlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\QuickPlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="main.Designer.vb">
       <DependentUpon>main.vb</DependentUpon>
     </Compile>
@@ -149,10 +161,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Non-Game Forms\Assistant.Designer.vb">
+      <DependentUpon>Assistant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Non-Game Forms\Assistant.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Non-Game Forms\GameSettings.Designer.vb">
       <DependentUpon>GameSettings.vb</DependentUpon>
     </Compile>
     <Compile Include="Non-Game Forms\GameSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Non-Game Forms\WhatsNewForm.Designer.vb">
+      <DependentUpon>WhatsNewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Non-Game Forms\WhatsNewForm.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -167,6 +191,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\Abilities.resx">
+      <DependentUpon>Abilities.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\QuickPlay.resx">
+      <DependentUpon>QuickPlay.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
     </EmbeddedResource>
@@ -176,8 +206,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Non-Game Forms\Assistant.resx">
+      <DependentUpon>Assistant.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Non-Game Forms\GameSettings.resx">
       <DependentUpon>GameSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Non-Game Forms\WhatsNewForm.resx">
+      <DependentUpon>WhatsNewForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

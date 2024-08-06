@@ -17,3 +17,8 @@ C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.xml
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe.manifest
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.application
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.GameSettings.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.WhatsNewForm.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Abilities.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.QuickPlay.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Assistant.resources

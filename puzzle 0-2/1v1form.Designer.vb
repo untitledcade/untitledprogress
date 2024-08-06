@@ -95,7 +95,7 @@ Partial Class _1v1form
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.Button1.Location = New System.Drawing.Point(268, 16)
+        Me.Button1.Location = New System.Drawing.Point(31, 31)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 17
@@ -105,11 +105,11 @@ Partial Class _1v1form
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.Button2.Location = New System.Drawing.Point(268, 45)
+        Me.Button2.Location = New System.Drawing.Point(31, 60)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 42)
+        Me.Button2.Size = New System.Drawing.Size(75, 29)
         Me.Button2.TabIndex = 18
-        Me.Button2.Text = "Start"
+        Me.Button2.Text = " "
         Me.Button2.UseVisualStyleBackColor = True
         '
         '_1v1form

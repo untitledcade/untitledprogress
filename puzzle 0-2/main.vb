@@ -1,32 +1,33 @@
 ﻿Public Class main
 
-    Function StartGame(ByVal OppClick As Integer, ByVal OppA As Integer, ByVal OppB As Integer, ByVal OppC As Integer, ByVal XPAmt As Integer)
+    Function StartGame(ByVal OppClick As Integer, ByVal OppA As Integer, ByVal OppB As Integer, ByVal OppC As Integer, ByVal XPAmt As Integer, ByVal CreditAmt As Integer)
         My.Settings.OppClickSpeed = OppClick
         My.Settings.OppCooldownA = OppA
         My.Settings.OppCooldownB = OppB
         My.Settings.OppCooldownC = OppC
         My.Settings.gameXP = XPAmt
+        My.Settings.gameCredit = CreditAmt
         My.Settings.Save()
         Form1.Show()
     End Function
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        StartGame(1, 15, 25, 35, 25)
+        StartGame(1, 15, 25, 35, 25, 0)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        StartGame(1, 9, 15, 25, 50)
+        StartGame(1, 9, 15, 25, 50, 1)
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        StartGame(1, 5, 10, 15, 100)
+        StartGame(1, 5, 10, 15, 100, 5)
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        StartGame(1, 1, 3, 5, 400)
+        StartGame(1, 1, 3, 5, 400, 20)
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        StartGame(5, 5, 10, 15, 600)
+        StartGame(5, 5, 10, 15, 600, 50)
     End Sub
 
     Private Sub menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -59,10 +60,10 @@
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        StartGame(OppClickPicker.Value, OppAPicker.Value, OppBPicker.Value, OppCPicker.Value, 0)
+        StartGame(OppClickPicker.Value, OppAPicker.Value, OppBPicker.Value, OppCPicker.Value, 0, 0)
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        StartGame(2, 3, 6, 9, 200)
+        StartGame(2, 3, 6, 9, 200, 10)
     End Sub
 End Class

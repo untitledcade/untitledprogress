@@ -32,18 +32,18 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Button2.Enabled = False
-        Button2.Text = "15"
-        UserA = 15
+        Button2.Text = "20"
+        UserA = 20 - My.Settings.CooldownALevel
         AStatus = True
 
         Button3.Enabled = False
-        Button3.Text = "25"
-        UserB = 25
+        Button3.Text = "40"
+        UserB = 40 - My.Settings.CooldownCLevel
         BStatus = True
 
         Button4.Enabled = False
-        Button4.Text = "35"
-        UserC = 35
+        Button4.Text = "60"
+        UserC = 60 - My.Settings.CooldownCLevel
         CStatus = True
 
         Label1.Text = My.Settings.userUsernane + " (YOU)"
@@ -104,8 +104,10 @@ Public Class Form1
         If gameResult = 1 Then
             Label4.Text = "You have Won the game! (Game has ended, Close this window.)"
             My.Settings.userXP = My.Settings.userXP + My.Settings.gameXP
+            My.Settings.userCredit = My.Settings.userCredit + My.Settings.gameCredit
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            Abilities.CoinAmountText.Text = My.Settings.userCredit
         ElseIf gameResult = 2 Then
             Label4.Text = "You have Lost. Dont give up, keep trying! (Game has ended, Close this window.)"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
@@ -117,7 +119,6 @@ Public Class Form1
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
         End If
-
 
     End Function
 
@@ -267,8 +268,8 @@ Public Class Form1
                 Else
                     ProgressBar1.Value = ProgressBar1.Value + 5
                     Button2.Enabled = False
-                    Button2.Text = "15"
-                    UserA = 15
+                    UserA = 20 - My.Settings.CooldownALevel
+                    Button2.Text = UserA
                     AStatus = True
                 End If
             End If
@@ -283,8 +284,8 @@ Public Class Form1
                 Else
                     ProgressBar1.Value = ProgressBar1.Value + 15
                     Button3.Enabled = False
-                    Button3.Text = "25"
-                    UserB = 25
+                    UserB = 40 - My.Settings.CooldownBLevel
+                    Button3.Text = UserB
                     BStatus = True
                 End If
             End If
@@ -299,8 +300,8 @@ Public Class Form1
                 Else
                     ProgressBar1.Value = ProgressBar1.Value + 25
                     Button4.Enabled = False
-                    Button4.Text = "35"
-                    UserC = 35
+                    UserC = 60 - My.Settings.CooldownCLevel
+                    Button4.Text = UserC
                     CStatus = True
                 End If
             End If
