@@ -110,7 +110,7 @@ Public Class Form1
         ' Gives Game Result, and Adds a win or loss to the counter
 
         If gameResult = 1 Then
-            Label4.Text = "You have Won the game! (Game has ended, Close this window.)"
+            Label4.Text = "Win! " & "+" & My.Settings.gameXP & "XP " & "+" & My.Settings.gameCredit & " BugCoin"
             My.Settings.userXP = My.Settings.userXP + My.Settings.gameXP
             My.Settings.userCredit = My.Settings.userCredit + My.Settings.gameCredit
             My.Settings.Save()
@@ -118,13 +118,13 @@ Public Class Form1
             Abilities.CoinAmountText.Text = My.Settings.userCredit
             My.Computer.Audio.Play(My.Resources.gameWin, AudioPlayMode.Background)
         ElseIf gameResult = 2 Then
-            Label4.Text = "You have Lost. Dont give up, keep trying! (Game has ended, Close this window.)"
+            Label4.Text = "Loss! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
             My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         ElseIf gameResult = 3 Then
-            Label4.Text = "You have Forfited and lost. (Game has ended, Close this window.)"
+            Label4.Text = "Forfit! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP

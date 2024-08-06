@@ -257,9 +257,7 @@
   <ItemGroup>
     <None Include="Resources\cad.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Audio\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\DuetWin.wav" />
   </ItemGroup>
