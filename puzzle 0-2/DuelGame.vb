@@ -42,11 +42,11 @@
         ' Gives Game Result, and Adds a win or loss to the counter
 
         If gameResult = 1 Then
-            Label4.Text = "Player 2 Wins"
-            My.Computer.Audio.Play(My.Resources.Player2, AudioPlayMode.Background)
-        ElseIf gameResult = 2 Then
-            Label4.Text = "Player 1 Wins!"
+            Label4.Text = "Player 1 Wins"
             My.Computer.Audio.Play(My.Resources.Player1, AudioPlayMode.Background)
+        ElseIf gameResult = 2 Then
+            Label4.Text = "Player 2 Wins!"
+            My.Computer.Audio.Play(My.Resources.Player2, AudioPlayMode.Background)
 
         End If
 
@@ -68,7 +68,7 @@
         If e.KeyChar = "j" Or e.KeyChar = "k" Or e.KeyChar = "l" Or e.KeyChar = "J" Or e.KeyChar = "K" Or e.KeyChar = "L" Then
             If GameStarted = True Then
                 If ProgressBar1.Value = 0 Then
-                    winEndProtocall(1)
+                    winEndProtocall(2)
                 Else
                     ProgressBar1.Value = ProgressBar1.Value - 1
                 End If
@@ -78,7 +78,7 @@
         If e.KeyChar = "a" Or e.KeyChar = "s" Or e.KeyChar = "d" Or e.KeyChar = "A" Or e.KeyChar = "S" Or e.KeyChar = "D" Then
             If GameStarted = True Then
                 If ProgressBar1.Value = 100 Then
-                    winEndProtocall(2)
+                    winEndProtocall(1)
                 Else
                     ProgressBar1.Value = ProgressBar1.Value + 1
                 End If
