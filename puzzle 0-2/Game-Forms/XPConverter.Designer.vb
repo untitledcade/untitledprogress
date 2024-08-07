@@ -43,7 +43,7 @@ Partial Class XPConverter
         Me.CoinAmountText.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CoinAmountText.Location = New System.Drawing.Point(10, 25)
         Me.CoinAmountText.Name = "CoinAmountText"
-        Me.CoinAmountText.Size = New System.Drawing.Size(24, 30)
+        Me.CoinAmountText.Size = New System.Drawing.Size(32, 37)
         Me.CoinAmountText.TabIndex = 21
         Me.CoinAmountText.Text = "1"
         '
@@ -52,7 +52,7 @@ Partial Class XPConverter
         Me.Label34.AutoSize = True
         Me.Label34.Location = New System.Drawing.Point(12, 9)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(56, 13)
+        Me.Label34.Size = New System.Drawing.Size(71, 19)
         Me.Label34.TabIndex = 20
         Me.Label34.Text = "BUGCOIN"
         '
@@ -62,7 +62,7 @@ Partial Class XPConverter
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(10, 87)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(24, 30)
+        Me.Label1.Size = New System.Drawing.Size(32, 37)
         Me.Label1.TabIndex = 23
         Me.Label1.Text = "1"
         '
@@ -71,7 +71,7 @@ Partial Class XPConverter
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 71)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(19, 13)
+        Me.Label2.Size = New System.Drawing.Size(25, 19)
         Me.Label2.TabIndex = 22
         Me.Label2.Text = "XP"
         '
@@ -79,9 +79,9 @@ Partial Class XPConverter
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(10, 172)
+        Me.Label3.Location = New System.Drawing.Point(10, 165)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(173, 30)
+        Me.Label3.Size = New System.Drawing.Size(224, 37)
         Me.Label3.TabIndex = 24
         Me.Label3.Text = "Low on BugCoin?"
         '
@@ -90,7 +90,7 @@ Partial Class XPConverter
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(12, 202)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(208, 221)
+        Me.Label4.Size = New System.Drawing.Size(251, 323)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = resources.GetString("Label4.Text")
         '
@@ -99,7 +99,7 @@ Partial Class XPConverter
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(396, 225)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(114, 13)
+        Me.Label5.Size = New System.Drawing.Size(139, 19)
         Me.Label5.TabIndex = 27
         Me.Label5.Text = "Amount of XP to bet:"
         '
@@ -107,17 +107,17 @@ Partial Class XPConverter
         '
         Me.Button1.Location = New System.Drawing.Point(399, 251)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(226, 31)
+        Me.Button1.Size = New System.Drawing.Size(251, 31)
         Me.Button1.TabIndex = 28
         Me.Button1.Text = "Spin the wheel of odds"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'NumericUpDown1
         '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(516, 223)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(541, 223)
         Me.NumericUpDown1.Maximum = New Decimal(New Integer() {100000, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(109, 22)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(109, 26)
         Me.NumericUpDown1.TabIndex = 29
         '
         'WheelText
@@ -126,24 +126,24 @@ Partial Class XPConverter
         Me.WheelText.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WheelText.Location = New System.Drawing.Point(394, 168)
         Me.WheelText.Name = "WheelText"
-        Me.WheelText.Size = New System.Drawing.Size(30, 30)
+        Me.WheelText.Size = New System.Drawing.Size(39, 37)
         Me.WheelText.TabIndex = 30
         Me.WheelText.Text = "hi"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(396, 155)
+        Me.Label7.Location = New System.Drawing.Point(397, 149)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(72, 13)
+        Me.Label7.Size = New System.Drawing.Size(90, 19)
         Me.Label7.TabIndex = 31
         Me.Label7.Text = "WHEEL SAYS:"
         '
         'XPConverter
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 469)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.WheelText)
         Me.Controls.Add(Me.NumericUpDown1)

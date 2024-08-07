@@ -23,6 +23,8 @@ Partial Class Campaign
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.Level1 = New System.Windows.Forms.Button()
         Me.Level6 = New System.Windows.Forms.Button()
@@ -34,8 +36,6 @@ Partial Class Campaign
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.TabPage9.SuspendLayout()
         Me.TabPage8.SuspendLayout()
         Me.TabControl1.SuspendLayout()
@@ -45,13 +45,32 @@ Partial Class Campaign
         '
         Me.TabPage9.Controls.Add(Me.Label4)
         Me.TabPage9.Controls.Add(Me.Label5)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 28)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1316, 286)
+        Me.TabPage9.Size = New System.Drawing.Size(1316, 280)
         Me.TabPage9.TabIndex = 1
         Me.TabPage9.Text = "TabPage9"
         Me.TabPage9.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(21, 169)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(401, 19)
+        Me.Label4.TabIndex = 65
+        Me.Label4.Text = "more stories to come however, stay tooned for the next update!"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(17, 132)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(249, 46)
+        Me.Label5.TabIndex = 64
+        Me.Label5.Text = "Nothing Here!"
         '
         'TabPage8
         '
@@ -61,10 +80,10 @@ Partial Class Campaign
         Me.TabPage8.Controls.Add(Me.Level2)
         Me.TabPage8.Controls.Add(Me.Level4)
         Me.TabPage8.Controls.Add(Me.Level5)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 28)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(1316, 286)
+        Me.TabPage8.Size = New System.Drawing.Size(1316, 280)
         Me.TabPage8.TabIndex = 0
         Me.TabPage8.Text = "Your Friendly Neighborhood"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -100,7 +119,7 @@ Partial Class Campaign
         Me.Level3.Name = "Level3"
         Me.Level3.Size = New System.Drawing.Size(72, 65)
         Me.Level3.TabIndex = 50
-        Me.Level3.Text = "Friend's Computer"
+        Me.Level3.Text = "Friend's PC"
         Me.Level3.UseVisualStyleBackColor = True
         '
         'Level2
@@ -111,7 +130,7 @@ Partial Class Campaign
         Me.Level2.Name = "Level2"
         Me.Level2.Size = New System.Drawing.Size(72, 65)
         Me.Level2.TabIndex = 22
-        Me.Level2.Text = "Family Computer"
+        Me.Level2.Text = "Family PC"
         Me.Level2.UseVisualStyleBackColor = True
         '
         'Level4
@@ -154,16 +173,16 @@ Partial Class Campaign
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 11.0!)
         Me.Label1.Location = New System.Drawing.Point(12, 378)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(536, 20)
+        Me.Label1.Size = New System.Drawing.Size(679, 25)
         Me.Label1.TabIndex = 61
         Me.Label1.Text = "Red levels are locked. Complete the current level (in lime green) to unlock more"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(165, 20)
+        Me.Label3.Location = New System.Drawing.Point(199, 17)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(159, 26)
+        Me.Label3.Size = New System.Drawing.Size(188, 38)
         Me.Label3.TabIndex = 63
         Me.Label3.Text = "Help us defeat Hose" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and his weird internet empire" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -173,32 +192,13 @@ Partial Class Campaign
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(147, 37)
+        Me.Label2.Size = New System.Drawing.Size(181, 46)
         Me.Label2.TabIndex = 62
         Me.Label2.Text = "Campaign"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 169)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(334, 13)
-        Me.Label4.TabIndex = 65
-        Me.Label4.Text = "more stories to come however, stay tooned for the next update!"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(17, 132)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(201, 37)
-        Me.Label5.TabIndex = 64
-        Me.Label5.Text = "Nothing Here!"
-        '
         'Campaign
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1351, 418)
         Me.Controls.Add(Me.Label3)

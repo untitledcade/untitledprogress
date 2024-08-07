@@ -35,7 +35,7 @@ Partial Class CampaignDialouge
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Bold)
         Me.Label1.Location = New System.Drawing.Point(8, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(74, 28)
+        Me.Label1.Size = New System.Drawing.Size(92, 35)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Label1"
         '
@@ -54,16 +54,17 @@ Partial Class CampaignDialouge
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(838, 291)
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Button1.Location = New System.Drawing.Point(826, 291)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 29)
+        Me.Button1.Size = New System.Drawing.Size(124, 29)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "CONTINUE"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'CampaignDialouge
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(962, 332)
         Me.Controls.Add(Me.Button1)
