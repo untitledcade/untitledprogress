@@ -1,60 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\",
+  "WorkspaceRootPath": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|c:\\users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|untitledprogress||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|c:\\users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\abilities.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\non-game forms\\assistant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\non-game forms\\assistant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\game-forms\\quickplay.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\desktop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|c:\\users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\non-game forms\\assistant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\non-game forms\\assistant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\duelgame.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|c:\\users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{E233D6FA-3C58-4EEB-ACAC-72552A4F467C}|puzzle 0-2\\untitledprogress.vbproj|solutionrelative:puzzle 0-2\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
@@ -65,47 +65,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DuelGame.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\DuelGame.vb",
-              "RelativeDocumentMoniker": "puzzle 0-2\\DuelGame.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\DuelGame.vb [Design]",
-              "RelativeToolTip": "puzzle 0-2\\DuelGame.vb [Design]",
+              "DocumentIndex": 0,
+              "Title": "QuickPlay.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb",
+              "RelativeDocumentMoniker": "puzzle 0-2\\Game-Forms\\QuickPlay.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb",
+              "RelativeToolTip": "puzzle 0-2\\Game-Forms\\QuickPlay.vb",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-07T05:35:53.258Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "untitledprogress",
-              "DocumentMoniker": "C:\\Users\\cad\\Source\\Repos\\untitledcade\\untitledprogress\\puzzle 0-2\\untitledprogress.vbproj",
-              "RelativeDocumentMoniker": "puzzle 0-2\\untitledprogress.vbproj",
-              "ToolTip": "C:\\Users\\cad\\Source\\Repos\\untitledcade\\untitledprogress\\puzzle 0-2\\untitledprogress.vbproj",
-              "RelativeToolTip": "puzzle 0-2\\untitledprogress.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-07T02:19:44.123Z",
+              "WhenOpened": "2024-08-07T08:11:38.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "main.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\main.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\main.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-07T04:05:51.486Z",
@@ -113,24 +94,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Abilities.vb",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Game-Forms\\Abilities.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
               "RelativeToolTip": "puzzle 0-2\\Game-Forms\\Abilities.vb",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAQwDsAAAAkAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAEYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-07T04:01:48.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Desktop.vb",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Desktop.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Desktop.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Desktop.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Desktop.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Desktop.vb",
               "RelativeToolTip": "puzzle 0-2\\Desktop.vb",
               "ViewState": "AQIAACkAAAAAAAAAAADwvzoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -139,11 +120,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Desktop.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Desktop.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Desktop.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Desktop.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Desktop.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Desktop.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\Desktop.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-06T09:32:28.341Z",
@@ -151,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Abilities.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Game-Forms\\Abilities.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\Abilities.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\Game-Forms\\Abilities.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-06T09:35:57.137Z",
@@ -163,11 +144,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Form1.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Form1.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Form1.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Form1.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-06T09:44:24.98Z",
@@ -175,37 +156,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Form1.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Form1.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Form1.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Form1.vb",
               "RelativeToolTip": "puzzle 0-2\\Form1.vb",
-              "ViewState": "AQIAAE4BAAAAAAAAAAAgwGcBAAASAAAA",
+              "ViewState": "AQIAAFABAAAAAAAAAADwv2cBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-06T09:46:10.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DuelGame.vb",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\DuelGame.vb",
-              "RelativeDocumentMoniker": "puzzle 0-2\\DuelGame.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\DuelGame.vb",
-              "RelativeToolTip": "puzzle 0-2\\DuelGame.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-06T10:16:32.788Z",
+              "DocumentIndex": 6,
+              "Title": "untitledprogress",
+              "DocumentMoniker": "C:\\Users\\priva\\Source\\Repos\\t1soft\\untitledprogress\\puzzle 0-2\\untitledprogress.vbproj",
+              "RelativeDocumentMoniker": "puzzle 0-2\\untitledprogress.vbproj",
+              "ToolTip": "C:\\Users\\priva\\Source\\Repos\\t1soft\\untitledprogress\\puzzle 0-2\\untitledprogress.vbproj",
+              "RelativeToolTip": "puzzle 0-2\\untitledprogress.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-07T02:19:44.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "DuelGame.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\DuelGame.vb",
+              "RelativeDocumentMoniker": "puzzle 0-2\\DuelGame.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\DuelGame.vb",
+              "RelativeToolTip": "puzzle 0-2\\DuelGame.vb",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-06T10:16:32.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "main.vb",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\main.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\main.vb",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\main.vb",
               "RelativeToolTip": "puzzle 0-2\\main.vb",
               "ViewState": "AQIAACEAAAAAAAAAAAAkwD0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -214,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "QuickPlay.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Game-Forms\\QuickPlay.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Game-Forms\\QuickPlay.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\Game-Forms\\QuickPlay.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-08-06T09:31:12.749Z",
@@ -226,15 +218,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Assistant.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Non-Game Forms\\Assistant.vb",
+              "DocumentMoniker": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Non-Game Forms\\Assistant.vb",
               "RelativeDocumentMoniker": "puzzle 0-2\\Non-Game Forms\\Assistant.vb",
-              "ToolTip": "C:\\Users\\cad\\source\\repos\\untitledcade\\untitledprogress\\puzzle 0-2\\Non-Game Forms\\Assistant.vb [Design]",
+              "ToolTip": "C:\\Users\\priva\\source\\repos\\t1soft\\untitledprogress\\puzzle 0-2\\Non-Game Forms\\Assistant.vb [Design]",
               "RelativeToolTip": "puzzle 0-2\\Non-Game Forms\\Assistant.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-08-06T09:39:05.758Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-06T09:39:05.758Z"
             }
           ]
         }
