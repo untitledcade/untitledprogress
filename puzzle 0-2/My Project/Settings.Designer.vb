@@ -224,7 +224,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("10")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
         Public Property CooldownALevel() As Integer
             Get
                 Return CType(Me("CooldownALevel"),Integer)
@@ -236,7 +236,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("6")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
         Public Property CooldownBLevel() As Integer
             Get
                 Return CType(Me("CooldownBLevel"),Integer)
@@ -248,7 +248,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("5")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
         Public Property CooldownCLevel() As Integer
             Get
                 Return CType(Me("CooldownCLevel"),Integer)

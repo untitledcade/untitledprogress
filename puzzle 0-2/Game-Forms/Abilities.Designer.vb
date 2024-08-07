@@ -75,7 +75,7 @@ Partial Class Abilities
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(189, 13)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "CURRENT COOLDOWN: 30 Seconds"
+        Me.Label2.Text = "CURRENT COOLDOWN: 20 Seconds"
         '
         'Label3
         '
@@ -84,7 +84,7 @@ Partial Class Abilities
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(189, 13)
         Me.Label3.TabIndex = 8
-        Me.Label3.Text = "CURRENT COOLDOWN: 30 Seconds"
+        Me.Label3.Text = "CURRENT COOLDOWN: 40 Seconds"
         '
         'Button2
         '
@@ -119,7 +119,7 @@ Partial Class Abilities
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(189, 13)
         Me.Label5.TabIndex = 12
-        Me.Label5.Text = "CURRENT COOLDOWN: 30 Seconds"
+        Me.Label5.Text = "CURRENT COOLDOWN: 60 Seconds"
         '
         'Button3
         '

@@ -179,6 +179,7 @@
     <Compile Include="Non-Game Forms\WhatsNewForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Settings.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DuelGame.resx">

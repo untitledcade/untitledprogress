@@ -26,6 +26,7 @@ Partial Class main
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.Button15 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -33,6 +34,11 @@ Partial Class main
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
@@ -105,12 +111,6 @@ Partial Class main
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage6.SuspendLayout()
@@ -182,6 +182,22 @@ Partial Class main
         Me.Label31.TabIndex = 33
         Me.Label31.Text = "the line between " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "butterfly clicking" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and jitterclicking"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.SandyBrown
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button15.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button15.Image = Global.puzzle_0_1.My.Resources.Resources.cad
+        Me.Button15.Location = New System.Drawing.Point(575, 26)
+        Me.Button15.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(210, 208)
+        Me.Button15.TabIndex = 32
+        Me.Button15.Text = "cade (Hard Mode)"
+        Me.Button15.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button15.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -260,6 +276,83 @@ Partial Class main
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "GOAL: Fill the Progress Bar to the Top! DO NOT LET IT EMPTY OUT!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Click on the Ho" &
     "w to Play Tab to learn how to play!"
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Black
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button5.Image = Global.puzzle_0_1.My.Resources.Resources.marvinmode
+        Me.Button5.Location = New System.Drawing.Point(1054, 25)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(292, 271)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "marvin.exe (marvin mode)"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.DarkRed
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button4.Image = Global.puzzle_0_1.My.Resources.Resources.davidgamer
+        Me.Button4.Location = New System.Drawing.Point(793, 25)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(253, 228)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "David/Gamer Mode"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Gold
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button3.Image = Global.puzzle_0_1.My.Resources.Resources.moderatehard
+        Me.Button3.Location = New System.Drawing.Point(373, 26)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(194, 186)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Moderate"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.PaleGreen
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button2.Image = Global.puzzle_0_1.My.Resources.Resources.normal
+        Me.Button2.Location = New System.Drawing.Point(203, 26)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(162, 152)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Normal"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.SkyBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
+        Me.Button1.Image = Global.puzzle_0_1.My.Resources.Resources.easymode
+        Me.Button1.Location = New System.Drawing.Point(31, 26)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(164, 108)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Easy Mode"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'TabPage6
         '
@@ -1033,99 +1126,6 @@ Partial Class main
         Me.Button12.Text = "Normal Attack (-1)"
         Me.Button12.UseVisualStyleBackColor = True
         '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.Color.SandyBrown
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button15.Image = Global.puzzle_0_1.My.Resources.Resources.cad
-        Me.Button15.Location = New System.Drawing.Point(575, 26)
-        Me.Button15.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(210, 208)
-        Me.Button15.TabIndex = 32
-        Me.Button15.Text = "cade (Hard Mode)"
-        Me.Button15.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button15.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.Black
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Image = Global.puzzle_0_1.My.Resources.Resources.marvinmode
-        Me.Button5.Location = New System.Drawing.Point(1054, 25)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(292, 271)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "marvin.exe (marvin mode)"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.DarkRed
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button4.Image = Global.puzzle_0_1.My.Resources.Resources.davidgamer
-        Me.Button4.Location = New System.Drawing.Point(793, 25)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(253, 228)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "David/Gamer Mode"
-        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Gold
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button3.Image = Global.puzzle_0_1.My.Resources.Resources.moderatehard
-        Me.Button3.Location = New System.Drawing.Point(373, 26)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(194, 186)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Moderate"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.PaleGreen
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button2.Image = Global.puzzle_0_1.My.Resources.Resources.normal
-        Me.Button2.Location = New System.Drawing.Point(203, 26)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(162, 152)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Normal"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.SkyBlue
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI Light", 14.0!)
-        Me.Button1.Image = Global.puzzle_0_1.My.Resources.Resources.easymode
-        Me.Button1.Location = New System.Drawing.Point(31, 26)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(164, 108)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Easy Mode"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 17.0!)
@@ -1135,6 +1135,8 @@ Partial Class main
         Me.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ProgressSpammer-Demo"

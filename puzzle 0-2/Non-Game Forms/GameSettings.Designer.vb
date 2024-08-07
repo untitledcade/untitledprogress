@@ -334,6 +334,7 @@ Partial Class GameSettings
         Me.MinimizeBox = False
         Me.Name = "GameSettings"
         Me.Text = "GameSettings"
+        Me.TopMost = True
         Me.SettingsTab.ResumeLayout(False)
         Me.UpdateTab.ResumeLayout(False)
         Me.UpdateTab.PerformLayout()

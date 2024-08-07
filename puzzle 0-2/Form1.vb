@@ -25,7 +25,7 @@ Public Class Form1
 
     Dim Autoclicker As Boolean = False
     Dim AutoclickerStatus As Boolean = False
-    Dim AutoclickerSpeed As Integer = 5
+    Dim AutoclickerSpeed As Integer = My.Settings.AutoclickerLevel
 
 #End Region
 
@@ -131,9 +131,15 @@ Public Class Form1
             My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         End If
 
+        ' Start the timer to close the form after 5 seconds
+        EndTimer.Enabled = True
+
     End Function
 
+
     Function OpponentLogic()
+        'OpponentLogic is called every tick.
+
         opponentCooldownRegulator = opponentCooldownRegulator + 1
         ToolStripMenuItem1.Text = opponentCooldownA
         ToolStripMenuItem2.Text = opponentCooldownB
@@ -323,67 +329,12 @@ Public Class Form1
             If Autoclicker = True Then
                 Button5.BackColor = Color.Green
                 Autoclicker = False
-            ElseIf Autoclicker = False Then
+            ElseIf Autoclicker = False And AutoclickerSpeed > 0 Then
                 Button5.BackColor = Color.Lime
                 Autoclicker = True
             End If
         End If
 
-    End Sub
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        If GameStarted = True Then
-            If ProgressBar1.Value = 100 Then
-                winEndProtocall(1)
-            Else
-                ProgressBar1.Value = ProgressBar1.Value + 1
-            End If
-        End If
-    End Sub
-
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        If GameStarted = True Then
-            If ProgressBar1.Value = 95 Or ProgressBar1.Value > 95 Then
-                ProgressBar1.Value = 100
-                winEndProtocall(1)
-            Else
-                ProgressBar1.Value = ProgressBar1.Value + 5
-                Button2.Enabled = False
-                Button2.Text = "15"
-                UserA = 15
-                AStatus = True
-            End If
-        End If
-    End Sub
-
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        If GameStarted = True Then
-            If ProgressBar1.Value = 85 Or ProgressBar1.Value > 85 Then
-                ProgressBar1.Value = 100
-                winEndProtocall(1)
-            Else
-                ProgressBar1.Value = ProgressBar1.Value + 15
-                Button3.Enabled = False
-                Button3.Text = "25"
-                UserB = 25
-                BStatus = True
-            End If
-        End If
-    End Sub
-
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        If GameStarted = True Then
-            If ProgressBar1.Value = 75 Or ProgressBar1.Value > 75 Then
-                ProgressBar1.Value = 100
-                winEndProtocall(1)
-            Else
-                ProgressBar1.Value = ProgressBar1.Value + 25
-                Button4.Enabled = False
-                Button4.Text = "35"
-                UserC = 35
-                CStatus = True
-            End If
-        End If
     End Sub
 
     Private Sub RunAwayForefitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RunAwayForefitToolStripMenuItem.Click
@@ -405,4 +356,7 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub EndTimer_Tick(sender As Object, e As EventArgs) Handles EndTimer.Tick
+        Me.Close()
+    End Sub
 End Class

@@ -28,6 +28,7 @@ Partial Class Desktop
         Me.CampaignToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuickGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CustomGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DualStarter1v1GameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PowersAndAbilitiesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,8 +38,17 @@ Partial Class Desktop
         Me.WhatsNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DualStarter1v1GameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DebugToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddCreditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MaxLevelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SpecificToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BluntToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FireToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ElectricToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AutoclickerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViewLegacyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaskBar.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -47,7 +57,7 @@ Partial Class Desktop
         Me.TaskBar.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TaskBar.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.TaskBar.Font = New System.Drawing.Font("Segoe UI", 18.0!)
-        Me.TaskBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StartToolStripMenuItem, Me.UserToolStripMenuItem, Me.InformationToolStripMenuItem, Me.ToolStripMenuItem1})
+        Me.TaskBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StartToolStripMenuItem, Me.UserToolStripMenuItem, Me.InformationToolStripMenuItem, Me.DebugToolStripMenuItem})
         Me.TaskBar.Location = New System.Drawing.Point(0, 497)
         Me.TaskBar.Name = "TaskBar"
         Me.TaskBar.Size = New System.Drawing.Size(1061, 40)
@@ -79,6 +89,12 @@ Partial Class Desktop
         Me.CustomGameToolStripMenuItem.Name = "CustomGameToolStripMenuItem"
         Me.CustomGameToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
         Me.CustomGameToolStripMenuItem.Text = "PracticeBot (Custom)"
+        '
+        'DualStarter1v1GameToolStripMenuItem
+        '
+        Me.DualStarter1v1GameToolStripMenuItem.Name = "DualStarter1v1GameToolStripMenuItem"
+        Me.DualStarter1v1GameToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
+        Me.DualStarter1v1GameToolStripMenuItem.Text = "DualStarter (1v1 game)"
         '
         'QuitGameToolStripMenuItem
         '
@@ -136,16 +152,74 @@ Partial Class Desktop
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(220, 36)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
-        'ToolStripMenuItem1
+        'DebugToolStripMenuItem
         '
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(12, 36)
+        Me.DebugToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewLegacyToolStripMenuItem, Me.MaxLevelToolStripMenuItem, Me.AddCreditToolStripMenuItem, Me.ResetSettingsToolStripMenuItem})
+        Me.DebugToolStripMenuItem.Name = "DebugToolStripMenuItem"
+        Me.DebugToolStripMenuItem.Size = New System.Drawing.Size(98, 36)
+        Me.DebugToolStripMenuItem.Text = "Debug"
         '
-        'DualStarter1v1GameToolStripMenuItem
+        'ResetSettingsToolStripMenuItem
         '
-        Me.DualStarter1v1GameToolStripMenuItem.Name = "DualStarter1v1GameToolStripMenuItem"
-        Me.DualStarter1v1GameToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
-        Me.DualStarter1v1GameToolStripMenuItem.Text = "DualStarter (1v1 game)"
+        Me.ResetSettingsToolStripMenuItem.Name = "ResetSettingsToolStripMenuItem"
+        Me.ResetSettingsToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.ResetSettingsToolStripMenuItem.Text = "Reset Settings"
+        '
+        'AddCreditToolStripMenuItem
+        '
+        Me.AddCreditToolStripMenuItem.Name = "AddCreditToolStripMenuItem"
+        Me.AddCreditToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.AddCreditToolStripMenuItem.Text = "Add Credit"
+        '
+        'MaxLevelToolStripMenuItem
+        '
+        Me.MaxLevelToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AllToolStripMenuItem, Me.SpecificToolStripMenuItem, Me.AutoclickerToolStripMenuItem})
+        Me.MaxLevelToolStripMenuItem.Name = "MaxLevelToolStripMenuItem"
+        Me.MaxLevelToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.MaxLevelToolStripMenuItem.Text = "Max Level"
+        '
+        'AllToolStripMenuItem
+        '
+        Me.AllToolStripMenuItem.Name = "AllToolStripMenuItem"
+        Me.AllToolStripMenuItem.Size = New System.Drawing.Size(206, 36)
+        Me.AllToolStripMenuItem.Text = "All"
+        '
+        'SpecificToolStripMenuItem
+        '
+        Me.SpecificToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BluntToolStripMenuItem, Me.FireToolStripMenuItem, Me.ElectricToolStripMenuItem})
+        Me.SpecificToolStripMenuItem.Name = "SpecificToolStripMenuItem"
+        Me.SpecificToolStripMenuItem.Size = New System.Drawing.Size(206, 36)
+        Me.SpecificToolStripMenuItem.Text = "Specific"
+        '
+        'BluntToolStripMenuItem
+        '
+        Me.BluntToolStripMenuItem.Name = "BluntToolStripMenuItem"
+        Me.BluntToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.BluntToolStripMenuItem.Text = "Blunt"
+        '
+        'FireToolStripMenuItem
+        '
+        Me.FireToolStripMenuItem.Name = "FireToolStripMenuItem"
+        Me.FireToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.FireToolStripMenuItem.Text = "Fire"
+        '
+        'ElectricToolStripMenuItem
+        '
+        Me.ElectricToolStripMenuItem.Name = "ElectricToolStripMenuItem"
+        Me.ElectricToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.ElectricToolStripMenuItem.Text = "Electric"
+        '
+        'AutoclickerToolStripMenuItem
+        '
+        Me.AutoclickerToolStripMenuItem.Name = "AutoclickerToolStripMenuItem"
+        Me.AutoclickerToolStripMenuItem.Size = New System.Drawing.Size(206, 36)
+        Me.AutoclickerToolStripMenuItem.Text = "Autoclicker"
+        '
+        'ViewLegacyToolStripMenuItem
+        '
+        Me.ViewLegacyToolStripMenuItem.Name = "ViewLegacyToolStripMenuItem"
+        Me.ViewLegacyToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.ViewLegacyToolStripMenuItem.Text = "View Legacy"
         '
         'Desktop
         '
@@ -178,7 +252,17 @@ Partial Class Desktop
     Friend WithEvents CampaignToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuickGameToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CustomGameToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents GameSettingsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DualStarter1v1GameToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DebugToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ResetSettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AddCreditToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MaxLevelToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AllToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SpecificToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BluntToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FireToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ElectricToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AutoclickerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ViewLegacyToolStripMenuItem As ToolStripMenuItem
 End Class
