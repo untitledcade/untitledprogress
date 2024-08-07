@@ -54,13 +54,13 @@
     ' Function to update the upgrade button's state
     Private Sub UpdateUpgradeButton(button As Button, cost As Integer, currentLevel As Integer, Optional maxValue As Integer = 0, Optional minCooldown As Integer = 0)
         If My.Settings.userCredit < cost Then
-            button.Text = $"Upgrade (Cost: {cost} coins)"
+            button.Text = $"Upgrade for {cost} coins"
             button.Enabled = False
         ElseIf currentLevel >= (maxValue - minCooldown) Then
-            button.Text = "Max Level!"
+            button.Text = "Max Level"
             button.Enabled = False
         Else
-            button.Text = $"Upgrade (Cost: {cost} coins)"
+            button.Text = $"Upgrade for {cost} coins"
             button.Enabled = True
         End If
     End Sub
