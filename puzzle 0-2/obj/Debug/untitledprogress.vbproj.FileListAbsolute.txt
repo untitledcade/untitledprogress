@@ -22,3 +22,27 @@ C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.QuickPlay.resources
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Assistant.resources
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.DuetGame.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe.config
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe.manifest
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.application
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.exe
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.pdb
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\bin\Debug\puzzle 0-2.xml
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.AssemblyReference.cache
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.DuetGame.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Desktop.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Form1.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Abilities.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.QuickPlay.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.main.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Resources.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Assistant.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.GameSettings.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.WhatsNewForm.resources
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.GenerateResource.cache
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.CoreCompileInputs.cache
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe.manifest
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.application
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.xml
+C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.pdb

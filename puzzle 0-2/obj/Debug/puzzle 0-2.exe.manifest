@@ -49,17 +49,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Zu1XSUZZ9q3+TjkuZXEUoUcShzrPaIyezwHW5Ho0+7g=</dsig:DigestValue>
+        <dsig:DigestValue>kDSVfehFqeqoQ7q5fnN7qXL041uy4ZT2L5uKN/+7nVU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="puzzle 0-2.exe.config" size="4204">
+  <file name="puzzle 0-2.exe.config" size="4200">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NFXZMiO6bI0lnk7EXWiJFmXv2BW4JcpqKJ1hbIf8x7E=</dsig:DigestValue>
+      <dsig:DigestValue>CmV+M+M55A+F+XToOjsPp8KgHnhbSeSmK1LVkY8RU0Y=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
