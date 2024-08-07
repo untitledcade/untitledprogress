@@ -32,8 +32,8 @@
     <Setting Name="userCredit" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="userLevel" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+    <Setting Name="userGameLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="AutoclickerLevel" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -41,7 +41,7 @@
     <Setting Name="CooldownLevel" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="ProgressLevel" Type="System.Int32" Scope="User">
+    <Setting Name="userXPLevel" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="CooldownALevel" Type="System.Int32" Scope="User">
@@ -55,6 +55,15 @@
     </Setting>
     <Setting Name="gameCredit" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PlayingGameLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="GameActive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CampaignWin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

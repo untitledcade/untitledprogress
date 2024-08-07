@@ -22,7 +22,7 @@ Public Class Desktop
     End Sub
 
     Private Sub AddCreditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddCreditToolStripMenuItem.Click
-        My.Settings.userCredit += 1000
+        My.Settings.userCredit += 100000
         My.Settings.Save()
         Abilities.CoinAmountText.Text = My.Settings.userCredit
     End Sub
@@ -57,5 +57,17 @@ Public Class Desktop
 
     Private Sub ViewLegacyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewLegacyToolStripMenuItem.Click
         main.Show()
+    End Sub
+
+    Private Sub CampaignToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CampaignToolStripMenuItem.Click
+        Campaign.Show()
+    End Sub
+
+    Private Sub EasterEggToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EasterEggToolStripMenuItem.Click
+        CampaignDialouge.Show()
+    End Sub
+
+    Private Sub WheelOfAllOddsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WheelOfAllOddsToolStripMenuItem.Click
+        XPConverter.Show()
     End Sub
 End Class

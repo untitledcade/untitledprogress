@@ -39,8 +39,7 @@ Partial Class Desktop
         Me.NewsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DebugToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ResetSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddCreditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViewLegacyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MaxLevelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SpecificToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -48,7 +47,10 @@ Partial Class Desktop
         Me.FireToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ElectricToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutoclickerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ViewLegacyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddCreditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EasterEggToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WheelOfAllOddsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaskBar.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -67,7 +69,7 @@ Partial Class Desktop
         'StartToolStripMenuItem
         '
         Me.StartToolStripMenuItem.BackColor = System.Drawing.Color.LimeGreen
-        Me.StartToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CampaignToolStripMenuItem, Me.QuickGameToolStripMenuItem, Me.CustomGameToolStripMenuItem, Me.DualStarter1v1GameToolStripMenuItem, Me.QuitGameToolStripMenuItem})
+        Me.StartToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CampaignToolStripMenuItem, Me.QuickGameToolStripMenuItem, Me.CustomGameToolStripMenuItem, Me.DualStarter1v1GameToolStripMenuItem, Me.WheelOfAllOddsToolStripMenuItem, Me.QuitGameToolStripMenuItem})
         Me.StartToolStripMenuItem.Name = "StartToolStripMenuItem"
         Me.StartToolStripMenuItem.Size = New System.Drawing.Size(74, 36)
         Me.StartToolStripMenuItem.Text = "Start"
@@ -154,22 +156,16 @@ Partial Class Desktop
         '
         'DebugToolStripMenuItem
         '
-        Me.DebugToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewLegacyToolStripMenuItem, Me.MaxLevelToolStripMenuItem, Me.AddCreditToolStripMenuItem, Me.ResetSettingsToolStripMenuItem})
+        Me.DebugToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewLegacyToolStripMenuItem, Me.MaxLevelToolStripMenuItem, Me.AddCreditToolStripMenuItem, Me.ResetSettingsToolStripMenuItem, Me.EasterEggToolStripMenuItem})
         Me.DebugToolStripMenuItem.Name = "DebugToolStripMenuItem"
         Me.DebugToolStripMenuItem.Size = New System.Drawing.Size(98, 36)
         Me.DebugToolStripMenuItem.Text = "Debug"
         '
-        'ResetSettingsToolStripMenuItem
+        'ViewLegacyToolStripMenuItem
         '
-        Me.ResetSettingsToolStripMenuItem.Name = "ResetSettingsToolStripMenuItem"
-        Me.ResetSettingsToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
-        Me.ResetSettingsToolStripMenuItem.Text = "Reset Settings"
-        '
-        'AddCreditToolStripMenuItem
-        '
-        Me.AddCreditToolStripMenuItem.Name = "AddCreditToolStripMenuItem"
-        Me.AddCreditToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
-        Me.AddCreditToolStripMenuItem.Text = "Add Credit"
+        Me.ViewLegacyToolStripMenuItem.Name = "ViewLegacyToolStripMenuItem"
+        Me.ViewLegacyToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.ViewLegacyToolStripMenuItem.Text = "View Legacy"
         '
         'MaxLevelToolStripMenuItem
         '
@@ -194,19 +190,19 @@ Partial Class Desktop
         'BluntToolStripMenuItem
         '
         Me.BluntToolStripMenuItem.Name = "BluntToolStripMenuItem"
-        Me.BluntToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.BluntToolStripMenuItem.Size = New System.Drawing.Size(163, 36)
         Me.BluntToolStripMenuItem.Text = "Blunt"
         '
         'FireToolStripMenuItem
         '
         Me.FireToolStripMenuItem.Name = "FireToolStripMenuItem"
-        Me.FireToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.FireToolStripMenuItem.Size = New System.Drawing.Size(163, 36)
         Me.FireToolStripMenuItem.Text = "Fire"
         '
         'ElectricToolStripMenuItem
         '
         Me.ElectricToolStripMenuItem.Name = "ElectricToolStripMenuItem"
-        Me.ElectricToolStripMenuItem.Size = New System.Drawing.Size(180, 36)
+        Me.ElectricToolStripMenuItem.Size = New System.Drawing.Size(163, 36)
         Me.ElectricToolStripMenuItem.Text = "Electric"
         '
         'AutoclickerToolStripMenuItem
@@ -215,11 +211,29 @@ Partial Class Desktop
         Me.AutoclickerToolStripMenuItem.Size = New System.Drawing.Size(206, 36)
         Me.AutoclickerToolStripMenuItem.Text = "Autoclicker"
         '
-        'ViewLegacyToolStripMenuItem
+        'AddCreditToolStripMenuItem
         '
-        Me.ViewLegacyToolStripMenuItem.Name = "ViewLegacyToolStripMenuItem"
-        Me.ViewLegacyToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
-        Me.ViewLegacyToolStripMenuItem.Text = "View Legacy"
+        Me.AddCreditToolStripMenuItem.Name = "AddCreditToolStripMenuItem"
+        Me.AddCreditToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.AddCreditToolStripMenuItem.Text = "Add Credit"
+        '
+        'ResetSettingsToolStripMenuItem
+        '
+        Me.ResetSettingsToolStripMenuItem.Name = "ResetSettingsToolStripMenuItem"
+        Me.ResetSettingsToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.ResetSettingsToolStripMenuItem.Text = "Reset Settings"
+        '
+        'EasterEggToolStripMenuItem
+        '
+        Me.EasterEggToolStripMenuItem.Name = "EasterEggToolStripMenuItem"
+        Me.EasterEggToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
+        Me.EasterEggToolStripMenuItem.Text = "Easter Egg"
+        '
+        'WheelOfAllOddsToolStripMenuItem
+        '
+        Me.WheelOfAllOddsToolStripMenuItem.Name = "WheelOfAllOddsToolStripMenuItem"
+        Me.WheelOfAllOddsToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
+        Me.WheelOfAllOddsToolStripMenuItem.Text = "Wheel of All Odds"
         '
         'Desktop
         '
@@ -265,4 +279,6 @@ Partial Class Desktop
     Friend WithEvents ElectricToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AutoclickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ViewLegacyToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EasterEggToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents WheelOfAllOddsToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -133,10 +133,34 @@
     <Compile Include="Game-Forms\Abilities.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Game-Forms\Campaign.Designer.vb">
+      <DependentUpon>Campaign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\Campaign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game-Forms\CampaignDialouge.Designer.vb">
+      <DependentUpon>CampaignDialouge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\CampaignDialouge.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Game-Forms\QuickPlay.Designer.vb">
       <DependentUpon>QuickPlay.vb</DependentUpon>
     </Compile>
     <Compile Include="Game-Forms\QuickPlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game-Forms\StatsForm.Designer.vb">
+      <DependentUpon>StatsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\StatsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game-Forms\XPConverter.Designer.vb">
+      <DependentUpon>XPConverter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game-Forms\XPConverter.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="main.Designer.vb">
@@ -195,8 +219,20 @@
     <EmbeddedResource Include="Game-Forms\Abilities.resx">
       <DependentUpon>Abilities.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\Campaign.resx">
+      <DependentUpon>Campaign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\CampaignDialouge.resx">
+      <DependentUpon>CampaignDialouge.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Game-Forms\QuickPlay.resx">
       <DependentUpon>QuickPlay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\StatsForm.resx">
+      <DependentUpon>StatsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game-Forms\XPConverter.resx">
+      <DependentUpon>XPConverter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>

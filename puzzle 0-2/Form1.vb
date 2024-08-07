@@ -115,19 +115,23 @@ Public Class Form1
             My.Settings.userCredit = My.Settings.userCredit + My.Settings.gameCredit
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            Campaign.CampaignGameProtocall(True)
             Abilities.CoinAmountText.Text = My.Settings.userCredit
+
             My.Computer.Audio.Play(My.Resources.gameWin, AudioPlayMode.Background)
         ElseIf gameResult = 2 Then
             Label4.Text = "Loss! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            Campaign.CampaignGameProtocall(False)
             My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         ElseIf gameResult = 3 Then
             Label4.Text = "Forfit! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
+            Campaign.CampaignGameProtocall(False)
             My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
         End If
 

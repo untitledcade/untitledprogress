@@ -46,3 +46,7 @@ C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puz
 C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.exe
 C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.xml
 C:\Users\cad\Source\Repos\untitledcade\untitledprogress\puzzle 0-2\obj\Debug\puzzle 0-2.pdb
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.Campaign.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.StatsForm.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.CampaignDialouge.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.XPConverter.resources

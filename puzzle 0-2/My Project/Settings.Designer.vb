@@ -176,13 +176,13 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property userLevel() As Integer
+         Global.System.Configuration.DefaultSettingValueAttribute("1")>  _
+        Public Property userGameLevel() As Integer
             Get
-                Return CType(Me("userLevel"),Integer)
+                Return CType(Me("userGameLevel"),Integer)
             End Get
             Set
-                Me("userLevel") = value
+                Me("userGameLevel") = value
             End Set
         End Property
         
@@ -213,12 +213,12 @@ Namespace My
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property ProgressLevel() As Integer
+        Public Property userXPLevel() As Integer
             Get
-                Return CType(Me("ProgressLevel"),Integer)
+                Return CType(Me("userXPLevel"),Integer)
             End Get
             Set
-                Me("ProgressLevel") = value
+                Me("userXPLevel") = value
             End Set
         End Property
         
@@ -267,6 +267,42 @@ Namespace My
             End Get
             Set
                 Me("gameCredit") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property PlayingGameLevel() As Integer
+            Get
+                Return CType(Me("PlayingGameLevel"),Integer)
+            End Get
+            Set
+                Me("PlayingGameLevel") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property GameActive() As Boolean
+            Get
+                Return CType(Me("GameActive"),Boolean)
+            End Get
+            Set
+                Me("GameActive") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property CampaignWin() As Boolean
+            Get
+                Return CType(Me("CampaignWin"),Boolean)
+            End Get
+            Set
+                Me("CampaignWin") = value
             End Set
         End Property
     End Class
