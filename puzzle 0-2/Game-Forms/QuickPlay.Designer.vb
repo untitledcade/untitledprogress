@@ -44,7 +44,7 @@ Partial Class QuickPlay
         Me.Label31.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label31.Location = New System.Drawing.Point(553, 307)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(97, 45)
+        Me.Label31.Size = New System.Drawing.Size(123, 60)
         Me.Label31.TabIndex = 45
         Me.Label31.Text = "the line between " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "butterfly clicking" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and jitterclicking"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -55,7 +55,7 @@ Partial Class QuickPlay
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label5.Location = New System.Drawing.Point(180, 251)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 30)
+        Me.Label5.Size = New System.Drawing.Size(121, 40)
         Me.Label5.TabIndex = 43
         Me.Label5.Text = "normal difficulty," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "effort required." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -66,7 +66,7 @@ Partial Class QuickPlay
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label4.Location = New System.Drawing.Point(350, 285)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(94, 30)
+        Me.Label4.Size = New System.Drawing.Size(120, 40)
         Me.Label4.TabIndex = 42
         Me.Label4.Text = "now this is what" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "I call a challenge" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -77,7 +77,7 @@ Partial Class QuickPlay
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label3.Location = New System.Drawing.Point(770, 326)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(118, 30)
+        Me.Label3.Size = New System.Drawing.Size(147, 40)
         Me.Label3.TabIndex = 41
         Me.Label3.Text = "only true gamers can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "beat this level"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -88,7 +88,7 @@ Partial Class QuickPlay
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label2.Location = New System.Drawing.Point(1031, 369)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(128, 45)
+        Me.Label2.Size = New System.Drawing.Size(161, 60)
         Me.Label2.TabIndex = 40
         Me.Label2.Text = "do you have the guts?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "lets face it, you'll get" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "destroyed in this mode"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -99,7 +99,7 @@ Partial Class QuickPlay
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label1.Location = New System.Drawing.Point(9, 207)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(108, 30)
+        Me.Label1.Size = New System.Drawing.Size(136, 40)
         Me.Label1.TabIndex = 39
         Me.Label1.Text = "so easy, that even " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "children can beat it"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -107,12 +107,12 @@ Partial Class QuickPlay
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(216, 19)
+        Me.Label6.Location = New System.Drawing.Point(268, 19)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(226, 52)
+        Me.Label6.Size = New System.Drawing.Size(273, 57)
         Me.Label6.TabIndex = 47
-        Me.Label6.Text = "Go to a random computer to cure virus" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "based off difficulty." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "you can Earn or L" &
-    "ose XP in the process btw"
+        Me.Label6.Text = "Go to a random computer to cure virus" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "based off difficulty." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "you can Earn or Los" &
+    "e XP in the process btw"
         '
         'Label7
         '
@@ -120,7 +120,7 @@ Partial Class QuickPlay
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(5, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(205, 37)
+        Me.Label7.Size = New System.Drawing.Size(257, 46)
         Me.Label7.TabIndex = 46
         Me.Label7.Text = "QuickLauncher"
         '
@@ -219,7 +219,7 @@ Partial Class QuickPlay
         '
         'QuickPlay
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1349, 437)
         Me.Controls.Add(Me.Label6)
