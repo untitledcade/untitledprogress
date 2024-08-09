@@ -27,6 +27,15 @@ Public Class Form1
     Dim AutoclickerStatus As Boolean = False
     Dim AutoclickerSpeed As Integer = My.Settings.AutoclickerLevel
 
+    ' Boolean to track whether a key is being held down
+    Private keyIsHeld As Boolean = False
+
+    ' Timer to manage key press intervals
+    Private WithEvents keyHoldTimer As New Timer With {.Interval = 5000} ' Adjust interval as needed
+
+    ' The key that is being tracked
+    Private trackedKey As Keys
+
 #End Region
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -268,9 +277,39 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
-        ' Normal Attack
-        If e.KeyChar = "j" Or e.KeyChar = "k" Or e.KeyChar = "l" Or e.KeyChar = "J" Or e.KeyChar = "K" Or e.KeyChar = "L" Then
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        ' Check if the key is already being held down
+        If keyIsHeld AndAlso e.KeyCode = trackedKey Then
+            ' Ignore further processing if the key is held down
+            e.SuppressKeyPress = True
+            Return
+        End If
+
+        ' Set the key as held down and start the timer
+        keyIsHeld = True
+        trackedKey = e.KeyCode
+        keyHoldTimer.Start()
+
+        ' Process the key press
+        ProcessKeyPress(e.KeyCode)
+    End Sub
+
+    Private Sub keyHoldTimer_Tick(sender As Object, e As EventArgs) Handles keyHoldTimer.Tick
+        ' Reset the key hold flag after the interval
+        keyIsHeld = False
+        keyHoldTimer.Stop()
+    End Sub
+
+    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles MyBase.KeyUp
+        ' Stop the timer when the key is released
+        If e.KeyCode = trackedKey Then
+            keyIsHeld = False
+            keyHoldTimer.Stop()
+        End If
+    End Sub
+
+    Private Sub ProcessKeyPress(keyCode As Keys)
+        If keyCode = Keys.J Or keyCode = Keys.K Or keyCode = Keys.L Then
             If GameStarted = True Then
                 If ProgressBar1.Value = 100 Then
                     winEndProtocall(1)
@@ -281,7 +320,7 @@ Public Class Form1
         End If
 
         ' Blunt Attack
-        If e.KeyChar = "a" Or e.KeyChar = "A" Then
+        If keyCode = Keys.A Then
             If GameStarted = True And Button2.Enabled = True Then
                 If ProgressBar1.Value = 95 Or ProgressBar1.Value > 95 Then
                     ProgressBar1.Value = 100
@@ -297,7 +336,7 @@ Public Class Form1
         End If
 
         ' Flaming Fire
-        If e.KeyChar = "s" Or e.KeyChar = "S" Then
+        If keyCode = Keys.S Then
             If GameStarted = True And Button3.Enabled = True Then
                 If ProgressBar1.Value = 85 Or ProgressBar1.Value > 85 Then
                     ProgressBar1.Value = 100
@@ -313,7 +352,7 @@ Public Class Form1
         End If
 
         ' Electricution
-        If e.KeyChar = "d" Or e.KeyChar = "D" Then
+        If keyCode = Keys.D Then
             If GameStarted = True And Button4.Enabled = True Then
                 If ProgressBar1.Value = 75 Or ProgressBar1.Value > 75 Then
                     ProgressBar1.Value = 100
@@ -329,7 +368,7 @@ Public Class Form1
         End If
 
         ' Autoclicker
-        If e.KeyChar = "q" Or e.KeyChar = "Q" Then
+        If keyCode = Keys.Q Then
             If Autoclicker = True Then
                 Button5.BackColor = Color.Green
                 Autoclicker = False
