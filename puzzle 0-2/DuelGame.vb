@@ -6,6 +6,15 @@
 
     Dim difLevel As Integer = My.Settings.chosenDifficulty
 
+    ' Boolean to track whether a key is being held down
+    Private keyIsHeld As Boolean = False
+
+    ' Timer to manage key press intervals
+    Private WithEvents keyHoldTimer As New Timer With {.Interval = 5000} ' Adjust interval as needed
+
+    ' The key that is being tracked
+    Private trackedKey As Keys
+
 #End Region
     Private Sub DuetGame_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer3.Enabled = True
@@ -62,10 +71,40 @@
             winEndProtocall(2)
         End If
     End Sub
+    Private Sub Duet_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        ' Check if the key is already being held down
+        If keyIsHeld AndAlso e.KeyCode = trackedKey Then
+            ' Ignore further processing if the key is held down
+            e.SuppressKeyPress = True
+            Return
+        End If
 
-    Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
+        ' Set the key as held down and start the timer
+        keyIsHeld = True
+        trackedKey = e.KeyCode
+        keyHoldTimer.Start()
+
+        ' Process the key press
+        ProcessKeyPress(e.KeyCode)
+    End Sub
+
+    Private Sub keyHoldTimer_Tick(sender As Object, e As EventArgs) Handles keyHoldTimer.Tick
+        ' Reset the key hold flag after the interval
+        keyIsHeld = False
+        keyHoldTimer.Stop()
+    End Sub
+
+    Private Sub Duet_KeyUp(sender As Object, e As KeyEventArgs) Handles MyBase.KeyUp
+        ' Stop the timer when the key is released
+        If e.KeyCode = trackedKey Then
+            keyIsHeld = False
+            keyHoldTimer.Stop()
+        End If
+    End Sub
+
+    Private Sub ProcessKeyPress(keyCode As Keys)
         ' Normal Attack
-        If e.KeyChar = "j" Or e.KeyChar = "k" Or e.KeyChar = "l" Or e.KeyChar = "J" Or e.KeyChar = "K" Or e.KeyChar = "L" Then
+        If keyCode = Keys.J Or keyCode = Keys.K Or keyCode = Keys.L Then
             If GameStarted = True Then
                 If ProgressBar1.Value = 0 Then
                     winEndProtocall(2)
@@ -75,7 +114,7 @@
             End If
         End If
 
-        If e.KeyChar = "a" Or e.KeyChar = "s" Or e.KeyChar = "d" Or e.KeyChar = "A" Or e.KeyChar = "S" Or e.KeyChar = "D" Then
+        If keyCode = Keys.A Or keyCode = Keys.S Or keyCode = Keys.D Then
             If GameStarted = True Then
                 If ProgressBar1.Value = 100 Then
                     winEndProtocall(1)
