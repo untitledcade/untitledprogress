@@ -23,8 +23,6 @@ Partial Class Campaign
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TabPage9 = New System.Windows.Forms.TabPage()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.Level1 = New System.Windows.Forms.Button()
         Me.Level6 = New System.Windows.Forms.Button()
@@ -36,6 +34,14 @@ Partial Class Campaign
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Level7 = New System.Windows.Forms.Button()
+        Me.Level8 = New System.Windows.Forms.Button()
+        Me.Level9 = New System.Windows.Forms.Button()
+        Me.Level10 = New System.Windows.Forms.Button()
+        Me.Level11 = New System.Windows.Forms.Button()
+        Me.Level12 = New System.Windows.Forms.Button()
+        Me.Level13 = New System.Windows.Forms.Button()
+        Me.Level14 = New System.Windows.Forms.Button()
         Me.TabPage9.SuspendLayout()
         Me.TabPage8.SuspendLayout()
         Me.TabControl1.SuspendLayout()
@@ -43,34 +49,21 @@ Partial Class Campaign
         '
         'TabPage9
         '
-        Me.TabPage9.Controls.Add(Me.Label4)
-        Me.TabPage9.Controls.Add(Me.Label5)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage9.Controls.Add(Me.Level14)
+        Me.TabPage9.Controls.Add(Me.Level13)
+        Me.TabPage9.Controls.Add(Me.Level12)
+        Me.TabPage9.Controls.Add(Me.Level11)
+        Me.TabPage9.Controls.Add(Me.Level10)
+        Me.TabPage9.Controls.Add(Me.Level9)
+        Me.TabPage9.Controls.Add(Me.Level8)
+        Me.TabPage9.Controls.Add(Me.Level7)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 22)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1316, 280)
+        Me.TabPage9.Size = New System.Drawing.Size(1316, 286)
         Me.TabPage9.TabIndex = 1
-        Me.TabPage9.Text = "TabPage9"
+        Me.TabPage9.Text = "Pathway to Virus"
         Me.TabPage9.UseVisualStyleBackColor = True
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 169)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(401, 19)
-        Me.Label4.TabIndex = 65
-        Me.Label4.Text = "more stories to come however, stay tooned for the next update!"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(17, 132)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(249, 46)
-        Me.Label5.TabIndex = 64
-        Me.Label5.Text = "Nothing Here!"
         '
         'TabPage8
         '
@@ -80,10 +73,10 @@ Partial Class Campaign
         Me.TabPage8.Controls.Add(Me.Level2)
         Me.TabPage8.Controls.Add(Me.Level4)
         Me.TabPage8.Controls.Add(Me.Level5)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(1316, 280)
+        Me.TabPage8.Size = New System.Drawing.Size(1316, 286)
         Me.TabPage8.TabIndex = 0
         Me.TabPage8.Text = "Your Friendly Neighborhood"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -173,7 +166,7 @@ Partial Class Campaign
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 11.0!)
         Me.Label1.Location = New System.Drawing.Point(12, 378)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(679, 25)
+        Me.Label1.Size = New System.Drawing.Size(536, 20)
         Me.Label1.TabIndex = 61
         Me.Label1.Text = "Red levels are locked. Complete the current level (in lime green) to unlock more"
         '
@@ -182,7 +175,7 @@ Partial Class Campaign
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(199, 17)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(188, 38)
+        Me.Label3.Size = New System.Drawing.Size(159, 26)
         Me.Label3.TabIndex = 63
         Me.Label3.Text = "Help us defeat Hose" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and his weird internet empire" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -192,13 +185,109 @@ Partial Class Campaign
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(181, 46)
+        Me.Label2.Size = New System.Drawing.Size(147, 37)
         Me.Label2.TabIndex = 62
         Me.Label2.Text = "Campaign"
         '
+        'Level7
+        '
+        Me.Level7.BackColor = System.Drawing.Color.Transparent
+        Me.Level7.Enabled = False
+        Me.Level7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level7.Location = New System.Drawing.Point(35, 117)
+        Me.Level7.Name = "Level7"
+        Me.Level7.Size = New System.Drawing.Size(72, 65)
+        Me.Level7.TabIndex = 31
+        Me.Level7.Text = "ISP1"
+        Me.Level7.UseVisualStyleBackColor = False
+        '
+        'Level8
+        '
+        Me.Level8.BackColor = System.Drawing.Color.Transparent
+        Me.Level8.Enabled = False
+        Me.Level8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level8.Location = New System.Drawing.Point(232, 29)
+        Me.Level8.Name = "Level8"
+        Me.Level8.Size = New System.Drawing.Size(72, 65)
+        Me.Level8.TabIndex = 32
+        Me.Level8.Text = "random computer"
+        Me.Level8.UseVisualStyleBackColor = False
+        '
+        'Level9
+        '
+        Me.Level9.BackColor = System.Drawing.Color.Transparent
+        Me.Level9.Enabled = False
+        Me.Level9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level9.Location = New System.Drawing.Point(334, 60)
+        Me.Level9.Name = "Level9"
+        Me.Level9.Size = New System.Drawing.Size(72, 65)
+        Me.Level9.TabIndex = 33
+        Me.Level9.Text = "idiots.net"
+        Me.Level9.UseVisualStyleBackColor = False
+        '
+        'Level10
+        '
+        Me.Level10.BackColor = System.Drawing.Color.Transparent
+        Me.Level10.Enabled = False
+        Me.Level10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level10.Location = New System.Drawing.Point(438, 17)
+        Me.Level10.Name = "Level10"
+        Me.Level10.Size = New System.Drawing.Size(72, 65)
+        Me.Level10.TabIndex = 34
+        Me.Level10.Text = "some gambling site"
+        Me.Level10.UseVisualStyleBackColor = False
+        '
+        'Level11
+        '
+        Me.Level11.BackColor = System.Drawing.Color.Transparent
+        Me.Level11.Enabled = False
+        Me.Level11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level11.Location = New System.Drawing.Point(593, 117)
+        Me.Level11.Name = "Level11"
+        Me.Level11.Size = New System.Drawing.Size(72, 65)
+        Me.Level11.TabIndex = 35
+        Me.Level11.Text = "A Server"
+        Me.Level11.UseVisualStyleBackColor = False
+        '
+        'Level12
+        '
+        Me.Level12.BackColor = System.Drawing.Color.Transparent
+        Me.Level12.Enabled = False
+        Me.Level12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level12.Location = New System.Drawing.Point(877, 117)
+        Me.Level12.Name = "Level12"
+        Me.Level12.Size = New System.Drawing.Size(72, 65)
+        Me.Level12.TabIndex = 36
+        Me.Level12.Text = "staplerfan website"
+        Me.Level12.UseVisualStyleBackColor = False
+        '
+        'Level13
+        '
+        Me.Level13.BackColor = System.Drawing.Color.Transparent
+        Me.Level13.Enabled = False
+        Me.Level13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level13.Location = New System.Drawing.Point(1000, 148)
+        Me.Level13.Name = "Level13"
+        Me.Level13.Size = New System.Drawing.Size(72, 65)
+        Me.Level13.TabIndex = 37
+        Me.Level13.Text = "dinosaurs"
+        Me.Level13.UseVisualStyleBackColor = False
+        '
+        'Level14
+        '
+        Me.Level14.BackColor = System.Drawing.Color.Transparent
+        Me.Level14.Enabled = False
+        Me.Level14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Level14.Location = New System.Drawing.Point(1188, 117)
+        Me.Level14.Name = "Level14"
+        Me.Level14.Size = New System.Drawing.Size(72, 65)
+        Me.Level14.TabIndex = 38
+        Me.Level14.Text = "Virus Firewall"
+        Me.Level14.UseVisualStyleBackColor = False
+        '
         'Campaign
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1351, 418)
         Me.Controls.Add(Me.Label3)
@@ -213,7 +302,6 @@ Partial Class Campaign
         Me.Text = "Campaign"
         Me.TopMost = True
         Me.TabPage9.ResumeLayout(False)
-        Me.TabPage9.PerformLayout()
         Me.TabPage8.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -232,6 +320,12 @@ Partial Class Campaign
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents Level14 As Button
+    Friend WithEvents Level13 As Button
+    Friend WithEvents Level12 As Button
+    Friend WithEvents Level11 As Button
+    Friend WithEvents Level10 As Button
+    Friend WithEvents Level9 As Button
+    Friend WithEvents Level8 As Button
+    Friend WithEvents Level7 As Button
 End Class

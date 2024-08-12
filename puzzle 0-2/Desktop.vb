@@ -70,4 +70,8 @@ Public Class Desktop
     Private Sub WheelOfAllOddsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WheelOfAllOddsToolStripMenuItem.Click
         XPConverter.Show()
     End Sub
+
+    Private Sub WhatsNewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WhatsNewToolStripMenuItem.Click
+        WhatsNewForm.Show()
+    End Sub
 End Class

@@ -294,7 +294,9 @@
   <ItemGroup>
     <None Include="Resources\cad.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\DeepWave.wav" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DuetWin.wav" />
   </ItemGroup>
@@ -318,6 +320,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Player2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DualSynth.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover-untitledprogress.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retaliation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trying to Keep Up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win-untitledprogress.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abilityready.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blunt.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electric.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

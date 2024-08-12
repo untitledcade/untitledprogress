@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="puzzle 0-2.exe.manifest" size="4762">
+    <dependentAssembly dependencyType="install" codebase="puzzle 0-2.exe.manifest" size="6060">
       <assemblyIdentity name="puzzle 0-2.exe" version="2024.4.30.3" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bQq2AMGzmhUG1cgHKCUCm7obKGpokG3WXsy1lai3+RI=</dsig:DigestValue>
+        <dsig:DigestValue>nx/IE5wAR7A4wW2utdLfKKY8LJAJ2YllP+laG8FR1Hc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

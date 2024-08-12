@@ -1,4 +1,5 @@
-﻿Imports System.Windows.Forms.VisualStyles
+﻿Imports System.Runtime.InteropServices
+Imports System.Windows.Forms.VisualStyles
 
 Public Class XPConverter
 
@@ -8,6 +9,7 @@ Public Class XPConverter
         CoinAmountText.Text = My.Settings.userCredit
         Label1.Text = My.Settings.userXP
     End Function
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         XPBetted = NumericUpDown1.Value

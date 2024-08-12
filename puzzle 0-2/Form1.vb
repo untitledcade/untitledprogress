@@ -1,4 +1,6 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+﻿Imports System.ComponentModel
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar
 
 Public Class Form1
 
@@ -38,6 +40,8 @@ Public Class Form1
 
 #End Region
 
+    Private Declare Function Beep Lib "kernel32.dll" (ByVal dwFreq As Long, ByVal dwDuration As Long) As Long
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Button2.Enabled = False
@@ -61,6 +65,20 @@ Public Class Form1
         opponentCooldownB = My.Settings.OppCooldownB
         opponentCooldownC = My.Settings.OppCooldownC
 
+        Dim rand As New Random()
+        Dim musicSelect As Integer = rand.Next(1, 4)
+
+        If musicSelect = 1 Then
+            My.Computer.Audio.Play(My.Resources.DeepWave, AudioPlayMode.Background)
+        ElseIf musicSelect = 2 Then
+            My.Computer.Audio.Play(My.Resources.Trying_to_Keep_Up, AudioPlayMode.Background)
+        ElseIf musicSelect = 3 Then
+            My.Computer.Audio.Play(My.Resources.DualSynth, AudioPlayMode.Background)
+        ElseIf musicSelect = 4 Then
+            My.Computer.Audio.Play(My.Resources.Retaliation, AudioPlayMode.Background)
+        End If
+
+
     End Sub
 
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
@@ -68,15 +86,20 @@ Public Class Form1
             Countdown = Countdown - 1
             Label4.Text = Countdown
             If Countdown = 3 Then
-                My.Computer.Audio.Play(My.Resources.OnMark, AudioPlayMode.Background)
+                Call Beep(800, 125)
+            End If
+            If Countdown = 2 Then
+                Call Beep(800, 125)
             End If
             If Countdown = 1 Then
-                My.Computer.Audio.Play(My.Resources.GetSet, AudioPlayMode.Background)
+                Call Beep(800, 125)
             End If
-
+            If Countdown = 0 Then
+                Call Beep(800, 125)
+            End If
         ElseIf Countdown = 0 Then
             Label4.Text = "Begin!"
-            My.Computer.Audio.Play(My.Resources.GameStart, AudioPlayMode.Background)
+            Call Beep(800, 500)
             Timer1.Enabled = True
             Button1.Enabled = True
             RunAwayForefitToolStripMenuItem.Enabled = True
@@ -127,21 +150,22 @@ Public Class Form1
             Campaign.CampaignGameProtocall(True)
             Abilities.CoinAmountText.Text = My.Settings.userCredit
 
-            My.Computer.Audio.Play(My.Resources.gameWin, AudioPlayMode.Background)
+            My.Computer.Audio.Stop()
+            My.Computer.Audio.Play(My.Resources.win_untitledprogress, AudioPlayMode.Background)
         ElseIf gameResult = 2 Then
             Label4.Text = "Loss! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
             Campaign.CampaignGameProtocall(False)
-            My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
+            My.Computer.Audio.Play(My.Resources.gameover_untitledprogress, AudioPlayMode.Background)
         ElseIf gameResult = 3 Then
             Label4.Text = "Forfit! " & "-" & My.Settings.gameXP & "XP"
             My.Settings.userXP = My.Settings.userXP - My.Settings.gameXP
             My.Settings.Save()
             main.TextBox1.Text = My.Settings.userXP
             Campaign.CampaignGameProtocall(False)
-            My.Computer.Audio.Play(My.Resources.failure, AudioPlayMode.Background)
+            My.Computer.Audio.Play(My.Resources.gameover_untitledprogress, AudioPlayMode.Background)
         End If
 
         ' Start the timer to close the form after 5 seconds
@@ -402,4 +426,5 @@ Public Class Form1
     Private Sub EndTimer_Tick(sender As Object, e As EventArgs) Handles EndTimer.Tick
         Me.Close()
     End Sub
+
 End Class

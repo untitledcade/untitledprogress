@@ -50,3 +50,8 @@ C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.StatsForm.resources
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.CampaignDialouge.resources
 C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\puzzle_0_1.XPConverter.resources
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\Interop.WMPLib.dll
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\Interop.WMPLib.dll
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\priva\Source\Repos\t1soft\untitledprogress\puzzle 0-2\obj\Debug\untitledprogress.vbproj.ResolveComReference.cache

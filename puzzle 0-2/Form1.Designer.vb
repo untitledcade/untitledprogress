@@ -44,6 +44,8 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.EndTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.MusicPlayer = New System.ComponentModel.BackgroundWorker()
+        Me.PowerPlayer = New System.ComponentModel.BackgroundWorker()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -119,7 +121,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(28, 215)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(133, 19)
+        Me.Label1.Size = New System.Drawing.Size(108, 13)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "cad12ishappy (YOU)"
         '
@@ -129,45 +131,45 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.RunAwayForefitToolStripMenuItem, Me.ToolStripMenuItem5})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(640, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(640, 24)
         Me.MenuStrip1.TabIndex = 7
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(31, 24)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(25, 20)
         Me.ToolStripMenuItem1.Text = "0"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(31, 24)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(25, 20)
         Me.ToolStripMenuItem2.Text = "0"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(31, 24)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(25, 20)
         Me.ToolStripMenuItem3.Text = "0"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(31, 24)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(25, 20)
         Me.ToolStripMenuItem4.Text = "0"
         '
         'RunAwayForefitToolStripMenuItem
         '
         Me.RunAwayForefitToolStripMenuItem.Enabled = False
         Me.RunAwayForefitToolStripMenuItem.Name = "RunAwayForefitToolStripMenuItem"
-        Me.RunAwayForefitToolStripMenuItem.Size = New System.Drawing.Size(145, 24)
+        Me.RunAwayForefitToolStripMenuItem.Size = New System.Drawing.Size(117, 20)
         Me.RunAwayForefitToolStripMenuItem.Text = "Run Away (Forefit)"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(31, 24)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(25, 20)
         Me.ToolStripMenuItem5.Text = "0"
         '
         'Label2
@@ -175,7 +177,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(546, 215)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 19)
+        Me.Label2.Size = New System.Drawing.Size(58, 13)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Computer"
         '
@@ -190,7 +192,7 @@ Partial Class Form1
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 20.0!)
         Me.Label4.Location = New System.Drawing.Point(24, 123)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(38, 46)
+        Me.Label4.Size = New System.Drawing.Size(32, 37)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "5"
         '
@@ -206,7 +208,7 @@ Partial Class Form1
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label3.Location = New System.Drawing.Point(545, 24)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(0, 28)
+        Me.Label3.Size = New System.Drawing.Size(0, 21)
         Me.Label3.TabIndex = 11
         '
         'Button5
@@ -226,9 +228,13 @@ Partial Class Form1
         '
         Me.EndTimer.Interval = 5000
         '
+        'MusicPlayer
+        '
+        Me.MusicPlayer.WorkerSupportsCancellation = True
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(640, 413)
         Me.Controls.Add(Me.Button5)
@@ -278,4 +284,6 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
     Friend WithEvents Button5 As Button
     Friend WithEvents EndTimer As Timer
+    Friend WithEvents MusicPlayer As System.ComponentModel.BackgroundWorker
+    Friend WithEvents PowerPlayer As System.ComponentModel.BackgroundWorker
 End Class

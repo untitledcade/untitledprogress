@@ -22,6 +22,16 @@ puzzle 0-2
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:puzzle_0_1.My.Resources.Resources.abilityready">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.blunt">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:puzzle_0_1.My.Resources.Resources.cad">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -30,6 +40,16 @@ puzzle 0-2
 <member name="P:puzzle_0_1.My.Resources.Resources.davidgamer">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.DeepWave">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.DualSynth">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member>
 <member name="P:puzzle_0_1.My.Resources.Resources.DuetWin">
@@ -42,7 +62,22 @@ puzzle 0-2
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:puzzle_0_1.My.Resources.Resources.electric">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:puzzle_0_1.My.Resources.Resources.failure">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.flame">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.gameover_untitledprogress">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
@@ -77,6 +112,11 @@ puzzle 0-2
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:puzzle_0_1.My.Resources.Resources.normal1">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:puzzle_0_1.My.Resources.Resources.OnMark">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
@@ -88,6 +128,21 @@ puzzle 0-2
 </summary>
 </member>
 <member name="P:puzzle_0_1.My.Resources.Resources.Player2">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.Retaliation">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.Trying_to_Keep_Up">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:puzzle_0_1.My.Resources.Resources.win_untitledprogress">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>

@@ -29,6 +29,7 @@ Partial Class Desktop
         Me.QuickGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CustomGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DualStarter1v1GameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WheelOfAllOddsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PowersAndAbilitiesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -50,7 +51,6 @@ Partial Class Desktop
         Me.AddCreditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ResetSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EasterEggToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WheelOfAllOddsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaskBar.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -97,6 +97,12 @@ Partial Class Desktop
         Me.DualStarter1v1GameToolStripMenuItem.Name = "DualStarter1v1GameToolStripMenuItem"
         Me.DualStarter1v1GameToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
         Me.DualStarter1v1GameToolStripMenuItem.Text = "DualStarter (1v1 game)"
+        '
+        'WheelOfAllOddsToolStripMenuItem
+        '
+        Me.WheelOfAllOddsToolStripMenuItem.Name = "WheelOfAllOddsToolStripMenuItem"
+        Me.WheelOfAllOddsToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
+        Me.WheelOfAllOddsToolStripMenuItem.Text = "Wheel of All Odds"
         '
         'QuitGameToolStripMenuItem
         '
@@ -228,12 +234,6 @@ Partial Class Desktop
         Me.EasterEggToolStripMenuItem.Name = "EasterEggToolStripMenuItem"
         Me.EasterEggToolStripMenuItem.Size = New System.Drawing.Size(238, 36)
         Me.EasterEggToolStripMenuItem.Text = "Easter Egg"
-        '
-        'WheelOfAllOddsToolStripMenuItem
-        '
-        Me.WheelOfAllOddsToolStripMenuItem.Name = "WheelOfAllOddsToolStripMenuItem"
-        Me.WheelOfAllOddsToolStripMenuItem.Size = New System.Drawing.Size(397, 36)
-        Me.WheelOfAllOddsToolStripMenuItem.Text = "Wheel of All Odds"
         '
         'Desktop
         '

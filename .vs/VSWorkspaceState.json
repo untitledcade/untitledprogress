@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\puzzle 0-2",
+    "\\puzzle 0-2\\Game-Forms",
     "\\puzzle 0-2\\My Project",
     "\\puzzle 0-2\\Non-Game Forms"
   ],
-  "SelectedNode": "\\puzzle 0-2\\My Project\\Settings.settings",
+  "SelectedNode": "\\puzzle 0-2\\Game-Forms\\Abilities.vb",
   "PreviewInSolutionExplorer": false
 }

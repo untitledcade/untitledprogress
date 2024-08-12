@@ -118,22 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label4.Text" xml:space="preserve">
-    <value>You can gamble- I meant turn
-XP points into BugCoin, with the
-virtural wheel of odds!
+    <value>You can gamble- I meant turn XP points into BugCoin, with the virtural wheel of odds!
+Simply type how much XP to bet, press Spin, and watch the text  above to see what will 
+happen with your XP. It could double your XP, increase your BugCoin, or even take
+away your XP or BugCoin. You could lose BugCoins in this process, no joke!
 
-Simply type how much XP to bet,
-press Spin, and watch the text 
-above to see what will happen with
-your XP. It could double your XP, 
-increase your BugCoin, or even take
-away your XP or BugCoin.
-
-NOTE: you could lose BugCoins in 
-this process, no joke!
-
-WARNING: DONT bet higher then the
-amount of XP you earned! dont be that
-greedy.</value>
+WARNING: DONT bet higher then the amount of XP you earned! dont be that greedy.</value>
   </data>
 </root>

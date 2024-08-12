@@ -25,13 +25,6 @@ Partial Class GameSettings
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GameSettings))
         Me.SettingsTab = New System.Windows.Forms.TabControl()
         Me.UpdateTab = New System.Windows.Forms.TabPage()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.ProfileSettings = New System.Windows.Forms.TabPage()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -50,7 +43,6 @@ Partial Class GameSettings
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ResetMASTERButton = New System.Windows.Forms.Button()
         Me.SettingsTab.SuspendLayout()
-        Me.UpdateTab.SuspendLayout()
         Me.ProfileSettings.SuspendLayout()
         Me.GameplaySettings.SuspendLayout()
         Me.DataSettings.SuspendLayout()
@@ -71,13 +63,6 @@ Partial Class GameSettings
         '
         'UpdateTab
         '
-        Me.UpdateTab.Controls.Add(Me.Label30)
-        Me.UpdateTab.Controls.Add(Me.Button7)
-        Me.UpdateTab.Controls.Add(Me.Button6)
-        Me.UpdateTab.Controls.Add(Me.TextBox4)
-        Me.UpdateTab.Controls.Add(Me.TextBox3)
-        Me.UpdateTab.Controls.Add(Me.Label12)
-        Me.UpdateTab.Controls.Add(Me.Label11)
         Me.UpdateTab.Location = New System.Drawing.Point(4, 22)
         Me.UpdateTab.Name = "UpdateTab"
         Me.UpdateTab.Padding = New System.Windows.Forms.Padding(3)
@@ -85,68 +70,6 @@ Partial Class GameSettings
         Me.UpdateTab.TabIndex = 0
         Me.UpdateTab.Text = "Updates"
         Me.UpdateTab.UseVisualStyleBackColor = True
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(20, 14)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(127, 21)
-        Me.Label30.TabIndex = 22
-        Me.Label30.Text = "Profile Settings"
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(391, 82)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 26)
-        Me.Button7.TabIndex = 20
-        Me.Button7.Text = "Save"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(391, 52)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 27)
-        Me.Button6.TabIndex = 19
-        Me.Button6.Text = "Save"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(139, 82)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(246, 22)
-        Me.TextBox4.TabIndex = 18
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(139, 53)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(246, 22)
-        Me.TextBox3.TabIndex = 17
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.Label12.Location = New System.Drawing.Point(20, 82)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(88, 19)
-        Me.Label12.TabIndex = 16
-        Me.Label12.Text = "Catchphrase:"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.Label11.Location = New System.Drawing.Point(34, 56)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(74, 19)
-        Me.Label11.TabIndex = 15
-        Me.Label11.Text = "Username:"
         '
         'ProfileSettings
         '
@@ -336,8 +259,6 @@ Partial Class GameSettings
         Me.Text = "GameSettings"
         Me.TopMost = True
         Me.SettingsTab.ResumeLayout(False)
-        Me.UpdateTab.ResumeLayout(False)
-        Me.UpdateTab.PerformLayout()
         Me.ProfileSettings.ResumeLayout(False)
         Me.ProfileSettings.PerformLayout()
         Me.GameplaySettings.ResumeLayout(False)
@@ -351,13 +272,6 @@ Partial Class GameSettings
     Friend WithEvents SettingsTab As TabControl
     Friend WithEvents UpdateTab As TabPage
     Friend WithEvents ProfileSettings As TabPage
-    Friend WithEvents Label30 As Label
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents DataSettings As TabPage
     Friend WithEvents GameplaySettings As TabPage
     Friend WithEvents Label1 As Label

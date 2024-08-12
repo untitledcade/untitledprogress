@@ -23,13 +23,13 @@ Partial Class WhatsNewForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -42,100 +42,103 @@ Partial Class WhatsNewForm
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Whats New?"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(44, 155)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 21)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "A New Interface"
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(16, 46)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(211, 13)
+        Me.Label3.Size = New System.Drawing.Size(135, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "untitledProgress Final Alpha version 1.8"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(145, 279)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(85, 21)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "1v1 mode"
+        Me.Label3.Text = "untitledProgress Beta 1.0" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(450, 133)
+        Me.Label6.Location = New System.Drawing.Point(15, 113)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(166, 21)
+        Me.Label6.Size = New System.Drawing.Size(178, 21)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "A campaign (finally)"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(45, 176)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(251, 26)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "untitledprogress has its own desktop interface!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "welcome to cyberspace"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(146, 300)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(188, 26)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "battle and lose some friends in this" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "new 1v1 mode!"
+        Me.Label6.Text = "More campaign levels"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(451, 154)
+        Me.Label5.Location = New System.Drawing.Point(16, 144)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(251, 26)
+        Me.Label5.Size = New System.Drawing.Size(130, 13)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "untitledprogress has its own desktop interface!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "welcome to cyberspace"
+        Me.Label5.Text = "the storyline progresses"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(16, 229)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(217, 13)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "and they only kind of sound like trash :D"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(15, 198)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(260, 21)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Background Music during games"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(16, 312)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(392, 13)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "You can no longer hold down a key to input multiple key strokes (Patched!)"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(15, 281)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(82, 21)
+        Me.Label8.TabIndex = 11
+        Me.Label8.Text = "Bug Fixes"
         '
         'WhatsNewForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label8)
+        Me.ClientSize = New System.Drawing.Size(442, 384)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "WhatsNewForm"
         Me.Text = "WhatsNewForm"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label4 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label5 As Label
 End Class

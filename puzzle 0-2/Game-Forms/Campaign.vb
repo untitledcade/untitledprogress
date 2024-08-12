@@ -69,6 +69,8 @@ Public Class Campaign
             My.Settings.PlayingGameLevel = 0
         End If
     End Sub
+
+#Region "Beginning"
     Private Sub Level1_Click(sender As Object, e As EventArgs) Handles Level1.Click
         StartGameDialouge(1, 1, 25, 50, 75, 10, 1, "Me", "Well, its time to test this out....", 20)
     End Sub
@@ -92,5 +94,40 @@ Public Class Campaign
     Private Sub Level6_Click(sender As Object, e As EventArgs) Handles Level6.Click
         StartGameDialouge(6, 1, 15, 30, 45, 50, 10, "HoseVirus8000", "Shit! Looks like your little program is trying to defeat... Me??? HA! You dont stand a chance, and I cant let you go on the internet with that.... thing!", 20)
 
+    End Sub
+
+#End Region
+
+
+    Private Sub Level7_Click(sender As Object, e As EventArgs) Handles Level7.Click
+        StartGame(7, 1, 15, 30, 45, 50, 10)
+    End Sub
+
+    Private Sub Level8_Click(sender As Object, e As EventArgs) Handles Level8.Click
+        StartGame(8, 1, 10, 20, 30, 55, 12)
+    End Sub
+
+    Private Sub Level9_Click(sender As Object, e As EventArgs) Handles Level9.Click
+        StartGame(9, 1, 10, 25, 40, 55, 13)
+    End Sub
+
+    Private Sub Level10_Click(sender As Object, e As EventArgs) Handles Level10.Click
+        StartGame(10, 1, 10, 25, 40, 55, 13)
+    End Sub
+
+    Private Sub Level11_Click(sender As Object, e As EventArgs) Handles Level11.Click
+        StartGameDialouge(11, 2, 5, 10, 10, 50, 10, "HoseVirus8000", "HA! Found you now, scamp! your not ruining my chances of victory any longer!", 20)
+    End Sub
+
+    Private Sub Level12_Click(sender As Object, e As EventArgs) Handles Level12.Click
+        StartGame(12, 1, 10, 15, 20, 60, 15)
+    End Sub
+
+    Private Sub Level13_Click(sender As Object, e As EventArgs) Handles Level13.Click
+        StartGame(13, 1, 2, 30, 60, 60, 15)
+    End Sub
+
+    Private Sub Level14_Click(sender As Object, e As EventArgs) Handles Level14.Click
+        StartGameDialouge(14, 2, 5, 10, 10, 70, 18, "HoseVirus8000", "Intrusion into Virus Distribution Center Detected! Your not going ANYWHERE.", 20)
     End Sub
 End Class

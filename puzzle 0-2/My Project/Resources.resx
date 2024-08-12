@@ -160,4 +160,37 @@
   <data name="Player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Player2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="abilityready" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abilityready.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blunt.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeepWave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeepWave.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DualSynth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DualSynth.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electric.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flame.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gameover_untitledprogress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gameover-untitledprogress.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Retaliation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Retaliation.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Trying_to_Keep_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trying to Keep Up.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="win_untitledprogress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\win-untitledprogress.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
