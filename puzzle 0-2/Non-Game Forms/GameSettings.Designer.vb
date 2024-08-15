@@ -42,6 +42,7 @@ Partial Class GameSettings
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ResetMASTERButton = New System.Windows.Forms.Button()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.SettingsTab.SuspendLayout()
         Me.ProfileSettings.SuspendLayout()
         Me.GameplaySettings.SuspendLayout()
@@ -63,10 +64,10 @@ Partial Class GameSettings
         '
         'UpdateTab
         '
-        Me.UpdateTab.Location = New System.Drawing.Point(4, 22)
+        Me.UpdateTab.Location = New System.Drawing.Point(4, 28)
         Me.UpdateTab.Name = "UpdateTab"
         Me.UpdateTab.Padding = New System.Windows.Forms.Padding(3)
-        Me.UpdateTab.Size = New System.Drawing.Size(792, 424)
+        Me.UpdateTab.Size = New System.Drawing.Size(792, 418)
         Me.UpdateTab.TabIndex = 0
         Me.UpdateTab.Text = "Updates"
         Me.UpdateTab.UseVisualStyleBackColor = True
@@ -80,10 +81,10 @@ Partial Class GameSettings
         Me.ProfileSettings.Controls.Add(Me.TextBox5)
         Me.ProfileSettings.Controls.Add(Me.Label6)
         Me.ProfileSettings.Controls.Add(Me.Label7)
-        Me.ProfileSettings.Location = New System.Drawing.Point(4, 22)
+        Me.ProfileSettings.Location = New System.Drawing.Point(4, 28)
         Me.ProfileSettings.Name = "ProfileSettings"
         Me.ProfileSettings.Padding = New System.Windows.Forms.Padding(3)
-        Me.ProfileSettings.Size = New System.Drawing.Size(792, 424)
+        Me.ProfileSettings.Size = New System.Drawing.Size(792, 418)
         Me.ProfileSettings.TabIndex = 1
         Me.ProfileSettings.Text = "Profile"
         Me.ProfileSettings.UseVisualStyleBackColor = True
@@ -94,7 +95,7 @@ Partial Class GameSettings
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(18, 18)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(127, 21)
+        Me.Label5.Size = New System.Drawing.Size(158, 28)
         Me.Label5.TabIndex = 29
         Me.Label5.Text = "Profile Settings"
         '
@@ -120,14 +121,14 @@ Partial Class GameSettings
         '
         Me.TextBox2.Location = New System.Drawing.Point(137, 86)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(246, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(246, 26)
         Me.TextBox2.TabIndex = 26
         '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(137, 57)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(246, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(246, 26)
         Me.TextBox5.TabIndex = 25
         '
         'Label6
@@ -136,7 +137,7 @@ Partial Class GameSettings
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Label6.Location = New System.Drawing.Point(18, 86)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(88, 19)
+        Me.Label6.Size = New System.Drawing.Size(109, 23)
         Me.Label6.TabIndex = 24
         Me.Label6.Text = "Catchphrase:"
         '
@@ -146,17 +147,18 @@ Partial Class GameSettings
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Label7.Location = New System.Drawing.Point(32, 60)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(74, 19)
+        Me.Label7.Size = New System.Drawing.Size(91, 23)
         Me.Label7.TabIndex = 23
         Me.Label7.Text = "Username:"
         '
         'GameplaySettings
         '
+        Me.GameplaySettings.Controls.Add(Me.CheckBox2)
         Me.GameplaySettings.Controls.Add(Me.CheckBox1)
-        Me.GameplaySettings.Location = New System.Drawing.Point(4, 22)
+        Me.GameplaySettings.Location = New System.Drawing.Point(4, 28)
         Me.GameplaySettings.Name = "GameplaySettings"
         Me.GameplaySettings.Padding = New System.Windows.Forms.Padding(3)
-        Me.GameplaySettings.Size = New System.Drawing.Size(792, 424)
+        Me.GameplaySettings.Size = New System.Drawing.Size(792, 418)
         Me.GameplaySettings.TabIndex = 3
         Me.GameplaySettings.Text = "Gameplay"
         Me.GameplaySettings.UseVisualStyleBackColor = True
@@ -166,7 +168,7 @@ Partial Class GameSettings
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(18, 19)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(209, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(254, 23)
         Me.CheckBox1.TabIndex = 0
         Me.CheckBox1.Text = "Legit Gamer Mode (prevents cheats)"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -179,10 +181,10 @@ Partial Class GameSettings
         Me.DataSettings.Controls.Add(Me.Label2)
         Me.DataSettings.Controls.Add(Me.Label1)
         Me.DataSettings.Controls.Add(Me.ResetMASTERButton)
-        Me.DataSettings.Location = New System.Drawing.Point(4, 22)
+        Me.DataSettings.Location = New System.Drawing.Point(4, 28)
         Me.DataSettings.Name = "DataSettings"
         Me.DataSettings.Padding = New System.Windows.Forms.Padding(3)
-        Me.DataSettings.Size = New System.Drawing.Size(792, 424)
+        Me.DataSettings.Size = New System.Drawing.Size(792, 418)
         Me.DataSettings.TabIndex = 2
         Me.DataSettings.Text = "Save Data"
         Me.DataSettings.UseVisualStyleBackColor = True
@@ -192,7 +194,7 @@ Partial Class GameSettings
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(28, 58)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(380, 52)
+        Me.Label8.Size = New System.Drawing.Size(451, 76)
         Me.Label8.TabIndex = 33
         Me.Label8.Text = resources.GetString("Label8.Text")
         '
@@ -202,7 +204,7 @@ Partial Class GameSettings
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(27, 27)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(182, 21)
+        Me.Label9.Size = New System.Drawing.Size(228, 28)
         Me.Label9.TabIndex = 32
         Me.Label9.Text = "YOUR CURRENT SAVE: "
         '
@@ -210,7 +212,7 @@ Partial Class GameSettings
         '
         Me.TextBox1.Location = New System.Drawing.Point(250, 143)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(93, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(93, 26)
         Me.TextBox1.TabIndex = 30
         '
         'Label2
@@ -218,7 +220,7 @@ Partial Class GameSettings
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(28, 164)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(209, 78)
+        Me.Label2.Size = New System.Drawing.Size(248, 114)
         Me.Label2.TabIndex = 25
         Me.Label2.Text = "Deletes your current save, including all " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "of your Progress, as well as Stats, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
     "BugCoin, and Experience Points." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Enter ""resetOK"", then click Reset to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Wipe D" &
@@ -230,7 +232,7 @@ Partial Class GameSettings
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(27, 143)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 21)
+        Me.Label1.Size = New System.Drawing.Size(193, 28)
         Me.Label1.TabIndex = 24
         Me.Label1.Text = "Reset EVERYTHING"
         '
@@ -245,9 +247,19 @@ Partial Class GameSettings
         Me.ResetMASTERButton.Text = "Reset"
         Me.ResetMASTERButton.UseVisualStyleBackColor = False
         '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(18, 48)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(112, 23)
+        Me.CheckBox2.TabIndex = 1
+        Me.CheckBox2.Text = "Debug Mode"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
         'GameSettings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.SettingsTab)
@@ -288,4 +300,5 @@ Partial Class GameSettings
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents CheckBox2 As CheckBox
 End Class

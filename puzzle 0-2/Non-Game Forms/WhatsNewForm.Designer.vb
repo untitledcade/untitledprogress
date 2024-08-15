@@ -38,7 +38,7 @@ Partial Class WhatsNewForm
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(175, 37)
+        Me.Label1.Size = New System.Drawing.Size(216, 46)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Whats New?"
         '
@@ -47,7 +47,7 @@ Partial Class WhatsNewForm
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(16, 46)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 13)
+        Me.Label3.Size = New System.Drawing.Size(163, 19)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "untitledProgress Beta 1.0" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -57,7 +57,7 @@ Partial Class WhatsNewForm
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(15, 113)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(178, 21)
+        Me.Label6.Size = New System.Drawing.Size(220, 28)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "More campaign levels"
         '
@@ -66,7 +66,7 @@ Partial Class WhatsNewForm
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(16, 144)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(130, 13)
+        Me.Label5.Size = New System.Drawing.Size(155, 19)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "the storyline progresses"
         '
@@ -75,7 +75,7 @@ Partial Class WhatsNewForm
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(16, 229)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(217, 13)
+        Me.Label2.Size = New System.Drawing.Size(257, 19)
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "and they only kind of sound like trash :D"
         '
@@ -85,7 +85,7 @@ Partial Class WhatsNewForm
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(15, 198)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(260, 21)
+        Me.Label4.Size = New System.Drawing.Size(322, 28)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Background Music during games"
         '
@@ -94,7 +94,7 @@ Partial Class WhatsNewForm
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(16, 312)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(392, 13)
+        Me.Label7.Size = New System.Drawing.Size(469, 19)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "You can no longer hold down a key to input multiple key strokes (Patched!)"
         '
@@ -104,15 +104,15 @@ Partial Class WhatsNewForm
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(15, 281)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(82, 21)
+        Me.Label8.Size = New System.Drawing.Size(102, 28)
         Me.Label8.TabIndex = 11
         Me.Label8.Text = "Bug Fixes"
         '
         'WhatsNewForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(442, 384)
+        Me.ClientSize = New System.Drawing.Size(545, 384)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label2)
